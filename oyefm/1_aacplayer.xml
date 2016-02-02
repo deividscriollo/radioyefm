@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<aacplayer>
+	<stationinfo>
+		<station>Radio Educativa</station>
+		<caption>Radio Educativa</caption>
+		<statusscriptlink>estadisticas.php</statusscriptlink>
+		<logo x="60" y="25">whooshlogo.png</logo>
+	</stationinfo>
+	
+	<skinconfig>
+		<backgroundcolor>5c5c5c</backgroundcolor>
+		<textcolor>ffffff</textcolor>
+		<toolbarcolor>818181</toolbarcolor>
+	</skinconfig>
+	
+	<iconlink>
+		<facebooklink>http://www.facebook.com/</facebooklink>
+		<twitterlink>http://www.twitter.com/</twitterlink>
+		<emaillink>mailto:</emaillink>
+	</iconlink>
+	
+	<equalizerconfig>
+		<bottomcolor>008000</bottomcolor>
+	    <middlecolor>ffff00</middlecolor>
+		<topcolor>ff8040</topcolor>
+		<peakcolor>ffffff</peakcolor>
+	</equalizerconfig>
+	
+	<mediaconfig>
+		<autoplay>yes</autoplay>
+		<rtmp></rtmp>
+		<streamaddress>http://206.217.207.207:8025/stream.aac?type=.flv</streamaddress>
+		
+		<videointro width="325" height="220"></videointro>
+	</mediaconfig>
+	
+	
+</aacplayer>

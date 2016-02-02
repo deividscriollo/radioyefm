@@ -1,0 +1,1 @@
+[04-Oct-2015 20:21:58 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/oyefm/public_html/wp-content/themes/twentytwelve/404.php on line 10

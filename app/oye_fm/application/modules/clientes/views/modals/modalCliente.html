@@ -1,0 +1,101 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <div class="modal-title">
+            <h4>
+                <span class="glyphicon glyphicon-edit"></span> <strong>Cliente</strong>
+                <span title="Cerrar"><i ng-click="cancel()" class="glyphicon glyphicon-remove icon-arrow-right pull-right"></i></span>
+            </h4>
+            <p>Todos los campos marcados con asterisco (<span class="red">*</span>) son obligatorios.</p>
+        </div>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" name="userForm" role="form" novalidate>
+            <div class="alert alert-danger alert-dismissable" ng-show="items.isError">
+                <strong>Error!</strong> {{items.mensajeError}}.
+            </div>
+
+            <div class="alert alert-warning" ng-show="items.loading">
+                <span class="spinner"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;
+                Espere que estamos buscando su informacion en el SRI..
+            </div>
+
+            <div class="form-group" >
+                <label class="col-lg-2 control-label"><strong>Ruc</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10" ng-class="{ 'has-error' : userForm.ruc.$invalid && !userForm.ruc.$pristine }">
+                    <input type="text" placeholder="Ruc" name="ruc" class="form-control" ng-model="items.cliente.ruc" ng-blur="valida_ruc(items.cliente.ruc)" onkeypress="return numeros(event)" ng-maxlength="13" required>
+                    <div ng-show="userForm.ruc.$error.required && !userForm.ruc.$pristine" class="red">El campo Ruc es requerido.</div>
+                    <div ng-show="userForm.ruc.$error.maxlength" class="red">El campo Ruc es muy grande, maximo 13 caracteres.</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label"><strong>Empresa</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10" ng-class="{ 'has-error' : userForm.empresa.$invalid && !userForm.empresa.$pristine }">
+                    <input type="text" placeholder="Empresa" name="empresa" class="form-control" ng-model="items.cliente.empresa" onkeypress="return letrasnumeros(event)" ng-minlength="4" ng-maxlength="255" disabled required>
+                    <div ng-show="userForm.empresa.$error.required && !userForm.empresa.$pristine" class="red">El campo Empresa es requerido.</div>
+                    <div ng-show="userForm.empresa.$error.minlength" class="red">El campo Empresa es muy pequeño, minimo 4 caracteres.</div>
+                    <div ng-show="userForm.empresa.$error.maxlength" class="red">El campo Empresa es muy grande, maximo 255 caracteres.</div>
+                </div>
+            </div>
+
+            <div class="form-group" >
+                <label class="col-lg-2 control-label"><strong>Direccion</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10" ng-class="{ 'has-error' : userForm.direccion.$invalid && !userForm.direccion.$pristine }">
+                    <input type="text" placeholder="Direccion" name="direccion" class="form-control" ng-model="items.cliente.direccion" ng-minlength="4" ng-maxlength="255" disabled required>
+                    <div ng-show="userForm.direccion.$error.required && !userForm.direccion.$pristine" class="red">El campo Direccion es requerido.</div>
+                    <div ng-show="userForm.direccion.$error.minlength" class="red">El campo Direccion es muy pequeño, minimo 4 caracteres.</div>
+                    <div ng-show="userForm.direccion.$error.maxlength" class="red">El campo Direccion es muy grande, maximo 255 caracteres.</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label"><strong>Telefono</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="Telefono" name="telefono" class="form-control" ng-model="items.cliente.telefono" ng-maxlength="15" onkeypress="return numeros(event)" required>
+                    <div ng-show="userForm.telefono.$error.maxlength" class="red">El campo Telefono es muy grande, maximo 15 caracteres.</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label"><strong>Contacto</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="Contacto" name="contacto" class="form-control" ng-model="items.cliente.contacto" ng-minlength="4" ng-maxlength="255" onkeypress="return letras(event)" required>
+                    <div ng-show="userForm.contacto.$error.required && !userForm.contacto.$pristine" class="red">El campo Contacto es requerido.</div>
+                    <div ng-show="userForm.contacto.$error.minlength" class="red">El campo Contacto es muy pequeño, minimo 4 caracteres.</div>
+                    <div ng-show="userForm.contacto.$error.maxlength" class="red">El campo Contacto es muy grande, maximo 255 caracteres.</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label"><strong>Telefono Contacto</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="Telefono Contacto" name="telefono_contacto" class="form-control" ng-model="items.cliente.telefono_contacto" ng-maxlength="15" onkeypress="return numeros(event)" required>
+                    <div ng-show="userForm.telefono_contacto.$error.required && !userForm.telefono_contacto.$pristine" class="red">El campo Telefono contacto es requerido.</div>
+                    <div ng-show="userForm.telefono_contacto.$error.maxlength" class="red">El campo Telefono contacto es muy grande, maximo 15 caracteres.</div>
+                </div>
+            </div>
+
+            <div class="form-group" >
+                <label class="col-lg-2 control-label"><strong>Estatus</strong> <span class="red"> *</span></label>
+                <div class="col-lg-10" ng-class="{ 'has-error' : userForm.situacion.$invalid && !userForm.situacion.$pristine }">
+                    <input type="hidden" name="situacion" ui-select2-sortable style="width: 100%" allow-clear='true' data-placeholder="Seleccione status" ng-model="items.cliente.situacion" simple-query="getStatus" required>
+                    <div ng-show="userForm.situacion.$error.required && !userForm.situacion.$pristine" class="red">El campo status es requerido.</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label"><strong>Observaciones</strong></label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="Observaciones" name="name" class="form-control" ng-model="items.cliente.observaciones" ng-maxlength="255">
+                    <div ng-show="userForm.ruc.$error.maxlength" class="red">El campo ruc es muy grande, maximo 255 caracteres.</div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-disabled="userForm.$invalid" ng-click="guardar()"><i class="ace-icon fa fa-check"> Guardar</i></button>
+        <button class="btn btn-warning" ng-click="cancel()"><i class="ace-icon fa fa-times"> Cancelar</i></button>
+    </div>
+
+</div>
