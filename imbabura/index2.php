@@ -14,12 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     
     
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="img/ico/favicon.ico">
+    <!-- Para el icono principal -->
+    <link rel="shortcut icon" href="img/ico/logo.ico">
     
     
     <!-- CSS -->
@@ -41,6 +37,7 @@
  
     <!-- Theme CSS -->
     <link href="css/theme.css" rel="stylesheet" type="text/css">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
     <!--[if IE]> <link href="css/ie.css" rel="stylesheet" > <![endif]-->
     <link href="css/chrome.css" rel="stylesheet" type="text/chrome"> <!-- chrome only css -->
     <link href="css/header/header-1.css" rel="stylesheet">
@@ -238,23 +235,185 @@
                 <div class="vc_pager clearfix"> </div>
               </div>
             </div>
+            
+ <!-- Inicialización para los videos -->
+     <div>
+      	<div class="titulos_pg">
+			<h5>Lo mas Sonado</h5>
+    	  </div>
+     		<div class="tabla">
+         <table width="300" border="0" cellspacing="4" cellpadding="3">
+  		 	 <tr>
+          	  	<td>
+    				sfsfsa
+    			</td>
+  
+			    <td>
+    		        dsfsdf
+            	</td>
+ 			 </tr>
+		</table>
+        </div>
+         <div class="titulos_pg">
+			<h5>Noticias del Día</h5>
+      	</div>
+    </div>
+      <!-- Finalizacion para los videos -->
+      
           </div>          
         </div>
       </div>
       <div class="col-sm-3">
+      SÍGUENOS EN TWITTER
        <a class="twitter-timeline" href="https://twitter.com/oyefm931/likes" data-widget-id="684498102632476672">
         Oye lo que te gusta
        </a>
       </div>
-    </div>
+      </div>
+      
   </div>
-  
   
 
   
+<!-- Inicialización del Footer -->
+  <footer class="footer-1 mode-1" id="footer">
+    <div class="vc_footer-links">
+      <div class="wrapper">
+        <div class="container">
+          <div class="vc_footer-line"> </div>
+          <div class="row">
+            <div id="vc_footer-about" class="footer-widget widget col-md-3">
+				<div class="vc_about">
+    <h3> Acerca de la Empresa</h3>
+    <p> La radio que no contamina tus oídos. </p>
+    <div class="vc_address">
+      <table>
+        <tbody>
+          <tr>
+            <td class="icon"><i class="fa fa-map-marker"> </i></td>
+            <td><address>
+             Ibarra-Imbabura <br>
+             Jaime Rivadeneira<br>
+              </address></td>
+          </tr>
+          <tr>
+            <td class="icon"><i class="fa fa-phone"> </i></td>
+            <td> 099 869 3535 </td>
+          </tr>
+          <tr>
+            <td class="icon"><i class="fa fa-envelope"> </i></td>
+            <td> info@oyefm.com </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+     <div class="vc_social-share vc_tight"> 
+                <a title="Twitter" class="twitter" href="https://twitter.com/oyefm931"  target="_blank"> 
+                  <i class="fa fa-twitter"></i> 
+                </a> 
+                <a title="Facebook" class="facebook" href="https://www.facebook.com/OYEfmImbabura"  target="_blank"> 
+                  <i class="fa fa-facebook"></i> 
+                </a> 
+                <a title="Gplus" class="youtube" href="https://www.youtube.com/channel/UCd3nO-R6N8za5NQZnvsizvA"  target="_blank"> 
+                  <i class=" fa fa-youtube-play"></i> 
+                </a> 
+                <a title="linkedin" class="instagram" href="https://www.instagram.com/oyefm/"  target="_blank"> <i class="fa fa-instagram"></i> </a> 
+            </div>
+</div>            </div>
+
+<!-- Inicialización Patrocinadores -->
+            <div id="vc_footer-gallery" class="footer-widget widget col-md-3">
+				<div class="vc_gallery">
+    <h3> Patrocinadores </h3>
+    
+  <table>
+  <tr>
+  <td class="img_pie">
+    <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  <td class="img_pie">
+  <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  <td class="img_pie">
+      <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  </tr>
   
-<!-- Footer Start -->
-  <footer class="footer-1 mode-1" id="footer">      
+   <tr>
+  <td class="img_pie">
+    <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  <td class="img_pie">
+  <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  <td class="img_pie">
+      <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  </tr>
+  
+   <tr>
+  <td class="img_pie">
+    <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  <td class="img_pie">
+  <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  <td class="img_pie">
+      <img src="img/logos_pie/logo1.fw.png">
+  </td>
+  </tr>
+  </table>
+</div>            </div>
+<!-- Finalizando Patrocinadores -->
+
+            <div id="vc_footer-twitter" class="footer-widget widget col-md-3">
+				<div class="vc_twitter-mini">
+    <h3> Latest Tweet </h3>
+    <div class="bg">
+        <i class="fa fa-quote-right"></i>
+        <i class="fa fa-twitter"></i>
+        <div class="vc_carousel-wrapper">
+            <div id="twitter-feeds-mini">
+    
+            </div>  
+        </div>  
+        <div class="clearfix"> </div>  
+        <div class="vc_carousel-control"> 
+            <a href="#"> <i class="fa fa-chevron-left"> </i> </a> <a href="#"> <i class="fa fa-chevron-right"> </i> </a> 
+        </div>
+		<div class="clearfix"> </div>
+    </div>
+</div>            
+            </div>
+            <div id="vc_footer-newsletter-form-widget" class="footer-widget widget col-md-3">
+				<div class="vc_newsletter-form">
+    <h3> Newsletter </h3>
+    <div id="vc_newsletter-form-success" class="alert alert-success hidden"> <strong> Success! </strong> You've been added to our email list. </div>
+    <div id="vc_newsletter-form-error" class="alert alert-error hidden"> </div>
+    <div class="info">                
+        <p> Keep up-to-date with our awesome products and news. Enter your e-mail and subscribe to our newsletter. </p>
+    
+        <form  id="newsletter" method="POST" action="functions/newsletter-subscribe.php" class="form-inline">
+          <div class="control-group row">
+          	<div class="col-xs-7 form-input" >
+            	<input type="email" id="email" name="email" placeholder="Email Address" required  />
+            </div>
+            <div class="col-xs-5 form-btn">
+            	<button type="submit" class="vc_btn"> Ir ! </button>
+            </div>
+          </div>
+        </form>
+    </div>
+</div>            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->        
+      </div>
+      <!-- wrapper -->      
+    </div>
+    <!-- vc_footer-links -->  
+      
     <div class="vc_bottom">
       <div class="wrapper">
         <div class="container">
@@ -263,12 +422,12 @@
             <div class="row">
               <div class=" col-sm-12 col-md-6">
                 <div class="copyright pull-left">
-                  <h5> Copyright &copy; OYEFM, por Conceptual Business Group  </h5>
+                  <h5> Copyright &copy;2016 Oyefm  </h5>
                 </div>
               </div>
-              <div class=" col-sm-12 col-md-6">
+              <div class=" col-sm-12 col-md-6 pie_pg">
                 <div class="menu pull-right"> 
-                	<a href="pages-faq.php"> FAQ </a> <a href="pages-sitemap.php"> Sitemap </a> <a href="contact.php"> Contact </a>                </div>
+                	<a href="pages-faq.php" > Home </a> <a href="pages-sitemap.php"> Programación </a> <a href="contact.php"> Podcast </a> <a href="contact.php"> Noticias </a> <a href="contact.php"> Contactos </a>              </div>
               </div>
             </div>
           </div>
@@ -276,7 +435,7 @@
       </div>
     </div>
   </footer>
-<!-- Footer END -->
+<!-- Fin del Footer -->
 
 </div>
 <!-- .vc_body END  -->
@@ -285,7 +444,7 @@
 <a class="back-top" href="#" id="back-top"> <i class="fa fa-chevron-up icon-white"> </i> </a> 
 
 <!-- Javascript =============================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
+<!-- Situado al final del documento para que las páginas se cargen más rápido --> 
 <script type="text/javascript" src="js/jquery.js"></script> 
 <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="js/tinyscrollbar.js"></script> 
@@ -297,7 +456,7 @@
 <script type="text/javascript" src="js/theme.js"></script>
 <script type="text/javascript" src="custom/custom.js"></script>
 
-<!-- Specific Page Scripts Put Here -->
+<!-- Scripts específicos/Página poner aquí -->
 <script src="js/specific/metro-slider.js" type="text/javascript"></script>
 <script src="js/specific/quick-contact.js"  type="text/javascript"></script>
 
