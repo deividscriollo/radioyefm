@@ -2,101 +2,87 @@
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html><!--<![endif]-->
-
-<!-- Data to be passed to templates/headers/header-x.tpl.php -->
-<!-- End of Data -->
-
+<!--[if gt IE 9]><!-->	
+<html><!--<![endif]-->
+<!-- Los datos que se transmiten to templates/headers/header-x.tpl.php -->
+<!-- Fin de Datos -->
 <head>
     <meta charset="utf-8" />
     <title>Oye, lo que te gusta</title>
-    <!-- Set the viewport width to device width for mobile -->
+    <!-- Ajusta el ancho de la ventana gráfica de la anchura del dispositivo para el móvil -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    
-    
     <!-- Para el icono principal -->
     <link rel="shortcut icon" href="img/ico/logo.ico">
-    
-    
-    <!-- CSS -->
-       
+    <!-- Empezando el CSS -->
     <!-- Bootstrap & FontAwesome CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--[if IE 7]><link type="text/css" rel="stylesheet" href="css/font-awesome-ie7.min.css"><![endif]-->
-
     <!-- Fonts CSS -->
-    <link href="css/fonts.css"  rel="stylesheet" type="text/css">
-               
+    <link href="css/fonts.css"  rel="stylesheet" type="text/css">          
     <!-- Plugin CSS -->
     <link href="plugins/prettyPhoto-plugin/css/prettyPhoto.css" rel="stylesheet" type="text/css">
     <link href="plugins/isotope-plugin/css/isotope.css" rel="stylesheet" type="text/css">
     <link href="plugins/rs-plugin/css/settings.css" media="screen" rel="stylesheet" type="text/css">
 	<link href="plugins/google-code-prettify/prettify.css" rel="stylesheet" type="text/css">  
 	<link href="css/animate.min.css" rel="stylesheet" type="text/css"> 
- 
-    <!-- Theme CSS -->
+    <!-- Temas del CSS Los estilos propios my-->
     <link href="css/theme.css" rel="stylesheet" type="text/css">
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
     <!--[if IE]> <link href="css/ie.css" rel="stylesheet" > <![endif]-->
-    <link href="css/chrome.css" rel="stylesheet" type="text/chrome"> <!-- chrome only css -->
+    <link href="css/chrome.css" rel="stylesheet" type="text/chrome"> <!-- Solo para chrome css -->
     <link href="css/header/header-1.css" rel="stylesheet">
-
-	<!-- Specific Page CSS -->
-	
-    <!-- Design Mode CSS -->
+	<!-- Especificación de página CSS -->
+    <!-- Modo de Diseño del Header y Footer/Cabecera y Pie de página CSS -->
     <link id="link-header-mode" href="css/mode/mode-1-header.css" rel="stylesheet" type="text/css"> 
     <link id="link-footer-mode" href="css/mode/mode-1-footer.css" rel="stylesheet" type="text/css">    
-    <link id="link-color" href="css/color/color-blue.css" rel="stylesheet" type="text/css">
-
-        
     <!-- Responsive CSS -->
-        	<link href="css/theme-responsive.css" rel="stylesheet" type="text/css"> 
-    	<link href="css/header/header-1-responsive.css" rel="stylesheet" type="text/css"> 
-        <link id="link-header-mode-r" href="css/mode/mode-1-header-responsive.css" rel="stylesheet" type="text/css"> 
-        <link id="link-footer-mode-r" href="css/mode/mode-1-footer-responsive.css" rel="stylesheet" type="text/css">
-    	<link id="link-color-r" href="css/color/color-blue-responsive.css" rel="stylesheet" type="text/css">        
-		              
-	  
-    
-    
+    <link href="css/theme-responsive.css" rel="stylesheet" type="text/css"> 
+    <link href="css/header/header-1-responsive.css" rel="stylesheet" type="text/css"> 
+    <link id="link-header-mode-r" href="css/mode/mode-1-header-responsive.css" rel="stylesheet" type="text/css"> 
+        <link id="link-footer-mode-r" href="css/mode/mode-1-footer-responsive.css" rel="stylesheet" type="text/css">   
     <!-- Custom CSS -->
     <link href="custom/custom.css" rel="stylesheet" type="text/css">
-
-
     <!-- Head SCRIPTS -->
     <script type="text/javascript" src="js/modernizr.js"></script> 
-    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script type="text/javascript" src="js/html5shiv.js"></script>
       <script type="text/javascript" src="js/respond.min.js"></script>
-    <![endif]-->
-    
-</head>    
+    <![endif]-->   
+</head>   
+	<!-- Fin del Head -->
+    <!-- Inicio del Body -->
 <body class="  clearfix" data-smooth-scrolling="1">     
-<div class="vc_body">
-
-<!-- Header Start -->
-  <header data-active="home" class="header-1 mode-1" id="header">
+	<div class="vc_body">
+	<!-- Inicio del Header -->
+    <header data-active="home" class="header-1 mode-1" id="header">
+    <!-- Inicio del Container principal-->
     <div class="vc_primary-menu-wrapper">
       <div class="container">
         <div class="row">
             <nav class="vc_menu"> 
             	<div class="logo">
-                  <a href="index.php"> 
+                  <a href="index2.php"> 
                       <img  alt="logo" src="img/logo.png"> 
                   </a>
-              </div>
-              <div class="vc_btn-navbar">
+              	</div>
+              	<div class="vc_btn-navbar">
+                 <!-- Inicio Botón -->
                 <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".vc_primary-menu">
-                  <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> 
+                <span class="icon-bar"> </span> 
+                <span class="icon-bar"> </span> 
+                <span class="icon-bar"> </span> 
                 </button>
-              </div>
+                 <!-- Fin Botón -->
+              	</div>
               <div class="vc_primary-menu">
-        				<ul>
+        		<ul>
                   <li id="home"> 
                     <a href="index.php"> Home <i class="fa fa-home"> </i> </a>
+                  </li>
+                  <li id="contact"> 
+                    <a href="index.php"> Corporativo </a>
                   </li>
                   <li id="contact"> 
                     <a href="contact.php"> Programación </a> 
@@ -110,20 +96,13 @@
                   <li id="contact"> 
                     <a href="contact.php"> Contactos </a> 
                   </li>
-                  <li id="home">
-                    <a href="" title="">
-                      <!-- <img src="img/escucha_la_radio.png" alt=""> -->
-                      <audio controls autoplay>
-                           <source src="http://206.217.207.207:8025/stream.aac" type="audio/mpeg"/>                                         
-                      </audio>                     
-                    </a>
-                  </li>
-                </ul>
+               </ul>
               </div>
             </nav>
         </div>
       </div>
     </div>
+    <!-- Fin del Container principal -->
     <div class="vc_secondary-menu-wrapper">
     	<div class="container"><div class="row">
         <div class="vc_secondary-menu">
@@ -131,8 +110,7 @@
             <div class="vc_contact-top">
               <div class="pull-left">
                 <h5>  
-                <a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="oyefm931">Tweet</a>
-
+                 <a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="oyefm931">Tweet</a>
                 </h5>
               </div>
               <div class="pull-left">
@@ -153,14 +131,14 @@
               </div>
               <div class="pull-right">
                 <h5> 
-                    <a href="" title=""><i class="fa fa-arrow-right"></i> Rendición de cuentas </a>
+                  <a href="" title=""><i class="fa fa-arrow-right"></i> Rendición de cuentas </a>
                   <span>
-                    <i class="fa fa-arrow-right"></i> Tarifas y Comercialización 
+                  <i class="fa fa-arrow-right"></i> Tarifas y Comercialización 
                 </h5>
               </div>
-              
             </div>
           </div>
+          <!-- Inicio Redes Sociales -->
           <div class="vc_social-share-wrapper hidden-xs col-sm-5 col-md-4 col-lg-2">
             <div class="vc_social-share vc_tight pull-right"> 
                 <a title="Twitter" class="twitter" href="https://twitter.com/oyefm931"  target="_blank"> 
@@ -169,26 +147,31 @@
                 <a title="Facebook" class="facebook" href="https://www.facebook.com/OYEfmImbabura"  target="_blank"> 
                   <i class="fa fa-facebook"></i> 
                 </a> 
-                <a title="Gplus" class="youtube" href="https://www.youtube.com/channel/UCd3nO-R6N8za5NQZnvsizvA"  target="_blank"> 
+                <a title="Youtube" class="youtube" href="https://www.youtube.com/channel/UCd3nO-R6N8za5NQZnvsizvA"  target="_blank"> 
                   <i class=" fa fa-youtube-play"></i> 
                 </a> 
-                <a title="linkedin" class="instagram" href="https://www.instagram.com/oyefm/"  target="_blank"> <i class="fa fa-instagram"></i> </a> 
+                <a title="Instagram" class="instagram" href="https://www.instagram.com/oyefm/"  target="_blank"> <i class="fa fa-instagram"></i> 
+                </a> 
             </div>
           </div>
+          <!-- Fin de Redes Sociales -->
         </div> 
-		      <div class="vc_sub-menu-bg"><div class="element-1"></div><div class="element-2"></div></div>              
-        </div></div>  
+		<div class="vc_sub-menu-bg"><div class="element-1"></div>
+        <div class="element-2"></div>
+        </div> 
+       </div>
+      </div>  
         <!-- container row --> 
     </div>
     <div class="vc_menu-bg"><div class="element-1"></div><div class="element-2"></div></div>
   </header>
-  <!-- Header Ends --> 
+  <!-- Fin del Header --> 
   <div class="container">
     <div class="row">
       <div class="col-sm-9">
         <div class="row">
+        <!-- Inicio del los  Items del Carousel -->
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Wrapper for carousel items -->
               <div class="carousel-inner">
                   <div class="item active">
                       <img src="img/slider/banner1.jpg" >
@@ -206,17 +189,20 @@
                       <img src="img/slider/banner5.jpg" >
                   </div>
               </div>
-              <!-- Carousel controls -->
+              <!-- Controles del Carousel -->
               <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
+                 <span class="glyphicon glyphicon-chevron-left"></span>
               </a>
               <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
+                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
-          </div>
+           </div>
         </div>
+        <!-- Fin del los  Items del Carousel -->
         <hr>
         <div class="row">
+          <h3 class="vc_widget-title text-center">Programas</h3>
+             <br>
           <div class="col-sm-12">
             <div class="vc_client">
               <div class="vc_carousel-wrap">
@@ -226,193 +212,167 @@
                       <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/03.png" /> </a> </div>
                       <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/04.png" /> </a> </div>
                       <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/05.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/06.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/07.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/01.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/02.png" /> </a> </div>
-                </div>
+                      </div>
                 <div class="clearfix"> </div>
                 <div class="vc_pager clearfix"> </div>
               </div>
             </div>
-            
- <!-- Inicialización para los videos -->
-     <div>
-      	<div class="titulos_pg">
-			<h5>Lo mas Sonado</h5>
-    	  </div>
-     		<div class="tabla">
-         <table width="300" border="0" cellspacing="4" cellpadding="3">
-  		 	 <tr>
-          	  	<td>
-    				sfsfsa
-    			</td>
-  
-			    <td>
-    		        dsfsdf
-            	</td>
- 			 </tr>
-		</table>
+          </div>
         </div>
-         <div class="titulos_pg">
-			<h5>Noticias del Día</h5>
-      	</div>
-    </div>
-      <!-- Finalizacion para los videos -->
-      
-          </div>          
+           <br>
+        <div class="row">
+          <h3 class="vc_widget-title text-center">Lo mas Sonado</h3>
+             <br>
+          <div class="col-sm-4 ">          
+            <iframe src="https://www.youtube.com/embed/hESLwzwtsxU" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></iframe>
+          </div>
+          <div class="col-sm-4 ">
+            <iframe src="https://www.youtube.com/embed/Cgovv8jWETM" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></iframe>
+          </div>
+          <div class="col-sm-4 ">
+            <iframe src="http://www.youtube.com/embed/wMhL_QIyD1k?rel=0" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></iframe>
+          </div>
+        </div>
+           <br>
+         <br>
+        <div class="row">
+          <h3 class="vc_widget-title text-center">Noticias del día</h3>
+             <br>
+          <div class="col-sm-4">Primera Noticia</div>
+          <div class="col-sm-4">Segunda Noticia</div>
+           <div class="col-sm-4">Tecera Noticia</div>
+        </div>
+           <br>
+        <div class="row">
+          <h3 class="vc_widget-title text-center">Invitados Especiales</h3>
+             <br>
+          <div class="col-sm-4">Primera Especial</div>
+          <div class="col-sm-4">Segunda Especial</div>
+           <div class="col-sm-4">Tecera Especial</div>
         </div>
       </div>
-      <div class="col-sm-3">
-      SÍGUENOS EN TWITTER
-       <a class="twitter-timeline" href="https://twitter.com/oyefm931/likes" data-widget-id="684498102632476672">
-        Oye lo que te gusta
-       </a>
+      <div class="col-sm-3"> 
+        <img src="img/escucha_la_radio.png" alt="">
+        <audio controls autoplay style="width:100%">
+          <source src="http://206.217.207.207:8025/stream.aac" type="audio/mpeg"/>
+        </audio>
+        SÍGUENOS EN TWITTER
+        <a class="twitter-timeline" href="https://twitter.com/oyefm931/likes" data-widget-id="684498102632476672">
+          Oye lo que te gusta
+        </a>       
       </div>
-      </div>
-      
+    </div>      
   </div>
-  
-
-  
 <!-- Inicialización del Footer -->
   <footer class="footer-1 mode-1" id="footer">
     <div class="vc_footer-links">
       <div class="wrapper">
         <div class="container">
-          <div class="vc_footer-line"> </div>
+          <div class="vc_footer-line"> 
+          </div>
           <div class="row">
-            <div id="vc_footer-about" class="footer-widget widget col-md-3">
-				<div class="vc_about">
-    <h3> Acerca de la Empresa</h3>
-    <p> La radio que no contamina tus oídos. </p>
-    <div class="vc_address">
-      <table>
-        <tbody>
-          <tr>
-            <td class="icon"><i class="fa fa-map-marker"> </i></td>
-            <td><address>
-             Ibarra-Imbabura <br>
-             Jaime Rivadeneira<br>
-              </address></td>
-          </tr>
-          <tr>
-            <td class="icon"><i class="fa fa-phone"> </i></td>
-            <td> 099 869 3535 </td>
-          </tr>
-          <tr>
-            <td class="icon"><i class="fa fa-envelope"> </i></td>
-            <td> info@oyefm.com </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-     <div class="vc_social-share vc_tight"> 
-                <a title="Twitter" class="twitter" href="https://twitter.com/oyefm931"  target="_blank"> 
-                  <i class="fa fa-twitter"></i> 
-                </a> 
-                <a title="Facebook" class="facebook" href="https://www.facebook.com/OYEfmImbabura"  target="_blank"> 
-                  <i class="fa fa-facebook"></i> 
-                </a> 
-                <a title="Gplus" class="youtube" href="https://www.youtube.com/channel/UCd3nO-R6N8za5NQZnvsizvA"  target="_blank"> 
-                  <i class=" fa fa-youtube-play"></i> 
-                </a> 
-                <a title="linkedin" class="instagram" href="https://www.instagram.com/oyefm/"  target="_blank"> <i class="fa fa-instagram"></i> </a> 
+<!-- Inicialización de Acerca de la empresa -->
+            <div id="vc_footer-about" class="footer-widget widget col-md-2">
+            				<div class="vc_about">
+                      <h3 align="center"> Acerca de la Empresa</h3>
+                      <p> Oye lo que te gusta. </p>
+                      <div class="vc_address">
+                        <table>
+                          <tbody>
+                              <tr>
+                                  <td class="icon"><i class="fa fa-map-marker"> </i></td>
+                                  <td><address>
+                                   Ibarra-Imbabura <br>
+                                   Jaime Rivadeneira<br>
+                                    </address></td>
+                              </tr>
+                              <tr>
+                                  <td class="icon"><i class="fa fa-phone"> </i></td>
+                                  <td> 099 869 3535 </td>
+                              </tr>
+                              <tr>
+                                  <td class="icon"><i class="fa fa-envelope"> </i></td>
+                                  <td> info@oyefm.com </td>
+                              </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="vc_social-share vc_tight"> 
+                          <a title="Twitter" class="twitter" href="https://twitter.com/oyefm931"  target="_blank"> 
+                            <i class="fa fa-twitter"></i> 
+                          </a> 
+                          <a title="Facebook" class="facebook" href="https://www.facebook.com/OYEfmImbabura"  target="_blank"> 
+                            <i class="fa fa-facebook"></i> 
+                          </a> 
+                          <a title="Youtube" class="youtube" href="https://www.youtube.com/channel/UCd3nO-R6N8za5NQZnvsizvA"  target="_blank"> 
+                            <i class=" fa fa-youtube-play"></i> 
+                          </a> 
+                          <a title="Instagram" class="instagram" href="https://www.instagram.com/oyefm/"  target="_blank"> <i class="fa fa-instagram"></i> </a> 
+                      </div>
+                    </div>
             </div>
-</div>            </div>
-
 <!-- Inicialización Patrocinadores -->
-            <div id="vc_footer-gallery" class="footer-widget widget col-md-3">
-				<div class="vc_gallery">
-    <h3> Patrocinadores </h3>
-    
-  <table>
-  <tr>
-  <td class="img_pie">
-    <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  <td class="img_pie">
-  <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  <td class="img_pie">
-      <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  </tr>
-  
-   <tr>
-  <td class="img_pie">
-    <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  <td class="img_pie">
-  <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  <td class="img_pie">
-      <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  </tr>
-  
-   <tr>
-  <td class="img_pie">
-    <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  <td class="img_pie">
-  <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  <td class="img_pie">
-      <img src="img/logos_pie/logo1.fw.png">
-  </td>
-  </tr>
-  </table>
-</div>            </div>
-<!-- Finalizando Patrocinadores -->
-
-            <div id="vc_footer-twitter" class="footer-widget widget col-md-3">
-				<div class="vc_twitter-mini">
-    <h3> Latest Tweet </h3>
-    <div class="bg">
-        <i class="fa fa-quote-right"></i>
-        <i class="fa fa-twitter"></i>
-        <div class="vc_carousel-wrapper">
-            <div id="twitter-feeds-mini">
-    
-            </div>  
-        </div>  
-        <div class="clearfix"> </div>  
-        <div class="vc_carousel-control"> 
-            <a href="#"> <i class="fa fa-chevron-left"> </i> </a> <a href="#"> <i class="fa fa-chevron-right"> </i> </a> 
+            <div id="vc_footer-gallery" class="footer-widget widget col-md-5">
+            	 <div class="vc_gallery">
+               	<h3> Patrocinado por: </h3>
+                <br>
+                  <article class="blog-row clearfix">
+                         <div class="blog-left">
+                            <div> <a href="#" class="vc_preview"> <img alt="example image" src="img/blog/logo_tuenti2.jpg"  /> </a> </div>
+                          </div>
+                  </article>
+               </div>    
+            </div>
+<!-- Inicialización Segmentos Especiales -->
+             <div class="footer-widget widget col-md-3">
+          	     <div>
+                    <h3> Segmentos Especiales</h3>
+                        <div class="tab-pane sidebar-widget" id="posts-tab">
+                            <div class="vc_blog-list">
+                                <article class="blog-row clearfix">
+                                  <div class="blog-left">
+                                     <div> <a href="#" class="vc_preview"> <img alt="example image" src="img/blog/logo_tuenti.png"  /> </a> </div>
+                                  </div>
+                                  <div class="blog-right clearfix">
+                                    <h3> <a href="#">Primer Segmento </a> </h3>                                 
+                                  </div>
+                                </article>
+                                <article class="blog-row clearfix">
+                                  <div class="blog-left">
+                                    <div> <a href="#" class="vc_preview"> <img alt="example image" src="img/blog/logo_tuenti.png"  /> </a> </div>
+                                  </div>
+                                  <div class="blog-right">
+                                    <h3> <a href="#"> Segundo Segmento </a> </h3>
+                                  </div>
+                                </article>
+                                <article class="blog-row">
+                                  <div class="blog-left">
+                                    <div> <a href="#" class="vc_preview"> <img alt="example image" src="img/blog/logo_tuenti.png"  /> </a> </div>
+                                  </div>
+                                  <div class="blog-right">
+                                    <h3> <a href="#"> Tercer Segmento </a> </h3>
+                                  </div>
+                                </article>
+                              </div>
+                        </div>
+                 </div>            
+             </div>
+<!-- Inicialización de Megusta face -->
+             <div class="footer-widget widget col-md-2">          			
+                    <h3> Me Gusta </h3>
+                      <div>
+                           <div class="fb-like" data-href="http://oyefm.com/imbabura/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true">
+                           </div>
+                      </div>                
+             </div>
+         </div>
+          <!-- fin del row del footer-->
         </div>
-		<div class="clearfix"> </div>
-    </div>
-</div>            
-            </div>
-            <div id="vc_footer-newsletter-form-widget" class="footer-widget widget col-md-3">
-				<div class="vc_newsletter-form">
-    <h3> Newsletter </h3>
-    <div id="vc_newsletter-form-success" class="alert alert-success hidden"> <strong> Success! </strong> You've been added to our email list. </div>
-    <div id="vc_newsletter-form-error" class="alert alert-error hidden"> </div>
-    <div class="info">                
-        <p> Keep up-to-date with our awesome products and news. Enter your e-mail and subscribe to our newsletter. </p>
-    
-        <form  id="newsletter" method="POST" action="functions/newsletter-subscribe.php" class="form-inline">
-          <div class="control-group row">
-          	<div class="col-xs-7 form-input" >
-            	<input type="email" id="email" name="email" placeholder="Email Address" required  />
-            </div>
-            <div class="col-xs-5 form-btn">
-            	<button type="submit" class="vc_btn"> Ir ! </button>
-            </div>
-          </div>
-        </form>
-    </div>
-</div>            </div>
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->        
+        <!-- fin del container -->        
       </div>
-      <!-- wrapper -->      
+      <!-- fin del wrapper -->      
     </div>
-    <!-- vc_footer-links -->  
+    <!-- fin del vc_footer-links -->  
       
     <div class="vc_bottom">
       <div class="wrapper">
@@ -438,9 +398,7 @@
 <!-- Fin del Footer -->
 
 </div>
-<!-- .vc_body END  -->
-
-
+<!-- .Fin del Body  -->
 <a class="back-top" href="#" id="back-top"> <i class="fa fa-chevron-up icon-white"> </i> </a> 
 
 <!-- Javascript =============================================== --> 
@@ -472,10 +430,16 @@
           fjs.parentNode.insertBefore(js, fjs);
       }
   }(document, "script", "twitter-wjs");
-
+  
+//el script del facebook 
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>
-
-
 
 </body>
 </html>
