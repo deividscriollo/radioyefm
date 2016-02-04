@@ -1,13 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
-
+.header .vc_primary-menu-wrapper{
+	/*background-image: url('img/logo-2.pngd');*/
+	background:rgba(255,255,255,0.1)!important;
+}
 .vc_widget-title{
 	background: #82AE35!important;
 	color: #FFF!important;
 	border-radius: 0.4em;
-	box-shadow: rgba(0,0,0,0.3) 0px 10px 10px;
+	box-shadow: rgba(0,0,0,0.3) 0px 10px 10px;  
+	padding: 10px;  
 }
-
 .titulos_pg
 	{
 	color:#FFF;
@@ -19,6 +22,18 @@
 	padding:10px;
 	width:100%;
 	}
+.noticias{
+	border-radius: 0.4em;
+	background: 82AE35;
+	font-family: sans-serif;
+	border:1px solid #ffffff;
+}
+.hr_linea{
+	border: 3px solid #666; 
+	border-radius: 300px/10px;
+	height: 0px; 
+	text-align: center;
+}
 .img_pie{
     padding: 4px;
     line-height: 1.42857143;
