@@ -65,7 +65,10 @@ jQuery(document).ready(function($)
 		$('a[data-rel]').each(function() {
 			$(this).attr('rel', $(this).data('rel'));
 		});
-		$("a[rel^='prettyPhoto']").prettyPhoto({theme:'light_square'});		
+		$("a[rel^='prettyPhoto']").prettyPhoto({
+			theme:'light_square',
+			social_tools: false
+		});
 		
 
 		/* Sticky Menu. 

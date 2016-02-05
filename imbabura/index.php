@@ -12,8 +12,6 @@
     <!-- Ajusta el ancho de la ventana gráfica de la anchura del dispositivo para el móvil -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <!-- Para el icono principal -->
-    <!--Para el Instagram-->
-    <link href="instalink/instalink-1.8.2.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/ico/logo.ico">
     <!-- Empezando el CSS -->
     <!-- Bootstrap & FontAwesome CSS -->
@@ -26,8 +24,8 @@
     <link href="plugins/prettyPhoto-plugin/css/prettyPhoto.css" rel="stylesheet" type="text/css">
     <link href="plugins/isotope-plugin/css/isotope.css" rel="stylesheet" type="text/css">
     <link href="plugins/rs-plugin/css/settings.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="plugins/google-code-prettify/prettify.css" rel="stylesheet" type="text/css">  
-	<link href="css/animate.min.css" rel="stylesheet" type="text/css"> 
+	  <link href="plugins/google-code-prettify/prettify.css" rel="stylesheet" type="text/css">  
+	  <link href="css/animate.min.css" rel="stylesheet" type="text/css"> 
     <!-- Temas del CSS Los estilos propios my-->
     <link href="css/theme.css" rel="stylesheet" type="text/css">
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
@@ -198,40 +196,114 @@
         <!-- Fin del los  Items del Carousel -->
         <hr>
         <div class="row">
-          <h3 class="vc_widget-title text-center">Programas</h3>
+          <h5 class="vc_widget-title text-center">Programas</h5>
              <br>
           <div class="col-sm-12">
             <div class="vc_client">
               <div class="vc_carousel-wrap">
                 <div class="vc_carousel clearfix">
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/02.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/04.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/03.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/01.png" /> </a> </div>
-                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/05.png" /> </a> </div>
-                </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/Despertador.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/sarten.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/InBox.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/Banner_hp.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/SinFormatos.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/Despertador.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/sarten.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/InBox.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/Banner_hp.png" /> </a> </div>
+                      <div class="vc_carousel-column"> <a href="#" class="content"> <img alt="example image" src="img/client-logo/SinFormatos.png" /> </a> </div>
+                </div> 
+                <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                <br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                <br>
+                <br>  
+                <div class="vc_pager clearfix" id="vc_client-pager"> </div>
               </div>
             </div>
           </div>
         </div>
-        <br>
         <div class="row">
-          <h3 class="vc_widget-title text-center">Lo mas Sonado</h3>
+          <h5 class="vc_widget-title text-center">Lo mas Sonado</h5>
              <br>
+<!-- Inicio del primer Video -->
           <div class="col-sm-4 ">          
-            <iframe src="https://www.youtube.com/embed/hESLwzwtsxU" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></iframe>
+            <div class="portfolio-item p-web">
+              <div class="vc_anim vc_anim-slide"> <a href="#" class="vc_preview"> <img alt="example image" src="img/portfolio/03.jpg" /> </a>
+                <div class="vc_hover">
+                  <div class="hover-wrapper">
+                    <div class="icon-wrapper">
+                      <ul>
+                        <li class="vc_icon">
+                          <div id="video_player">
+                            <a href="http://www.youtube.com/watch?v=oC-GflRB0y4" rel="prettyPhoto">
+                              <i class="fa fa-play-circle"> </i>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="vc_category"> <i class="fa fa-video-camera"></i> </div>
+              </div>
+            </div>
           </div>
+<!-- Fin del primer Video -->
+<!-- Inicio del segundo Video -->
           <div class="col-sm-4 ">
-            <iframe src="https://www.youtube.com/embed/Cgovv8jWETM" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></iframe>
+            <div class="portfolio-item p-web">
+                <div class="portfolio-item p-web">
+                <div class="vc_anim vc_anim-slide"> <a href="#" class="vc_preview"> <img alt="example image" src="img/portfolio/03.jpg" /> </a>
+                  <div class="vc_hover">
+                    <div class="hover-wrapper">
+                      <div class="icon-wrapper">
+                        <ul>
+                          <li class="vc_icon">
+                            <div id="video_player">
+                              <a href="http://www.youtube.com/watch?v=JRfuAukYTKg" rel="prettyPhoto">
+                                <i class="fa fa-play-circle"> </i>
+                              </a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vc_category"> <i class="fa fa-video-camera"></i> </div>
+                </div>
+              </div>
+            </div>
           </div>
+<!-- Fin del segundo Video -->
+<!-- Inicio del tercer Video -->
           <div class="col-sm-4 ">
-            <iframe src="http://www.youtube.com/embed/wMhL_QIyD1k?rel=0" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></iframe>
+            <div class="portfolio-item p-web">
+                <div class="vc_anim vc_anim-slide"> <a href="#" class="vc_preview"> <img alt="example image" src="img/portfolio/03.jpg" /> </a>
+                  <div class="vc_hover">
+                    <div class="hover-wrapper">
+                      <div class="icon-wrapper">
+                        <ul>
+                          <li class="vc_icon">
+                            <div id="video_player">
+                              <a href="http://www.youtube.com/watch?v=cHHLHGNpCSA" rel="prettyPhoto">
+                                <i class="fa fa-play-circle"> </i>
+                              </a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vc_category"> <i class="fa fa-video-camera"></i> </div>
+                </div>
+            </div>
           </div>
+<!-- Fin del tercer Video -->
         </div>
         <br>
-        <br>
         <div class="row">
-          <h3 class="vc_widget-title text-center">Noticias del día</h3>
+          <h5 class="vc_widget-title text-center">Noticias del día</h5>
           <br>
           <div class="col-sm-4">
 <!-- Inicio de la Primera noticia -->
@@ -324,78 +396,81 @@
           <br>
           <div class="col-sm-4"> 
             <!-- Inicio del Primer invitado -->
-            
-              <div class="vc_metro-slider">
-                <ul>
-                  <li class="box type-2 anim-hover"> <a href="#"> 
-                    <img alt="example image" src="img/noticias/invitado1.jpg" width="100%">
-                     <div class="mouse-over">
-                       <div class="content">
-                           <div class="text">
-                              <h2> Dennis <span class="vc_main-color"> The Black </span> </h2>
-                                <p> Gran Artista </p>
-                                  <div class="vc_btn"> Sigueme </div>
-                            </div>
-                        </div>
-                      </div></a> 
-                  </li>
-                </ul>
-              </div>                                          
-            
+              <div class="portfolio-item p-illustration p-logo">
+                <div class="vc_anim vc_anim-slide"> <a  href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="img/noticias/invitado1.jpg" /> </a>
+                  <div class="vc_hover">
+                    <div class="hover-wrapper">
+                      <div class="text-wrapper">
+                        <h4> Invitado 1 </h4>
+                      </div>
+                      <div class="icon-wrapper">
+                        <ul>
+                          <li class="vc_icon"> <a data-rel="prettyPhoto" href="img/noticias/invitado1.jpg" > <i class="fa fa-search-plus"> </i> </a> </li>
+                          <li class="vc_icon"> <a  href="portfolio-single-project.php" > <i class="fa fa-link"> </i> </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vc_category"> <i class="fa fa-picture-o"></i> </div>
+                </div>
+              </div>
           </div>
           <!-- Fin del Primer invitado -->
           <div class="col-sm-4">
             <!-- Inicio del Segundo invitado -->
-            <div class="vc_metro-slider-outer">
-              <div class="vc_metro-slider">
-                <ul>
-                  <li class="odd">
-                    <ul>
-                        <li class="box type-2 anim-hover"> <a href="#"> <img alt="example image" src="img/noticias/invitado2.jpg">
-                           <div class="mouse-over">
-                             <div class="content">
-                                 <div class="text">
-                                    <h2> Dennis <span class="vc_main-color"> The Black </span> </h2>
-                                      <p> Gran Artista </p>
-                                        <div class="vc_btn"> Sigueme </div>
-                                  </div>
-                              </div>
-                            </div></a> 
-                        </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>                                          
-            </div>
+            <div class="portfolio-item p-illustration p-logo">
+                <div class="vc_anim vc_anim-slide"> <a  href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="img/noticias/invitado2.jpg" /> </a>
+                  <div class="vc_hover">
+                    <div class="hover-wrapper">
+                      <div class="text-wrapper">
+                        <h4> Invitado 2 </h4>
+                      </div>
+                      <div class="icon-wrapper">
+                        <ul>
+                          <li class="vc_icon"> <a data-rel="prettyPhoto" href="img/noticias/invitado2.jpg" > <i class="fa fa-search-plus"> </i> </a> </li>
+                          <li class="vc_icon"> <a  href="portfolio-single-project.php" > <i class="fa fa-link"> </i> </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vc_category"> <i class="fa fa-picture-o"></i> </div>
+                </div>
+              </div>
           </div>
           <!-- Fin del Segundo invitado -->
           <div class="col-sm-4">
             <!-- Inicio del Tercer invitado -->
-            <div class="vc_metro-slider-outer">
-              <div class="vc_metro-slider">
-                <ul>
-                  <li class="odd">
-                    <ul>
-                        <li class="box type-2 anim-hover"> <a href="#"> <img alt="example image" src="img/noticias/invitado3.jpg" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                           <div class="mouse-over">
-                             <div class="content">
-                                 <div class="text">
-                                    <h2> Dennis <span class="vc_main-color"> The Black </span> </h2>
-                                      <p> Gran Artista </p>
-                                        <div class="vc_btn"> Sigueme </div>
-                                  </div>
-                              </div>
-                            </div></a> 
-                        </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>                                          
-            </div>
+            <div class="portfolio-item p-illustration p-logo">
+                <div class="vc_anim vc_anim-slide"> <a  href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="img/noticias/invitado1.jpg" /> </a>
+                  <div class="vc_hover">
+                    <div class="hover-wrapper">
+                      <div class="text-wrapper">
+                        <h4> Invitado 3 </h4>
+                      </div>
+                      <div class="icon-wrapper">
+                        <ul>
+                          <li class="vc_icon"> <a data-rel="prettyPhoto" href="img/noticias/invitado1.jpg" > <i class="fa fa-search-plus"> </i> </a> </li>
+                          <li class="vc_icon"> <a  href="portfolio-single-project.php" > <i class="fa fa-link"> </i> </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vc_category"> <i class="fa fa-picture-o"></i> </div>
+                </div>
+              </div>
           </div>
           <!-- Fin del Tercer invitado -->
         </div>
-         <!-- Fin del Row de invitados -->
+        <!-- Fin del Row de invitados -->
+        <!-- Inicio de Instagram -->
+        <br>
+        <div class="row">
+         <h5 class="vc_widget-title text-center">Instagram</h5>
+         <br>
+         <div>
+         <iframe src="//instansive.com/widgets/61911d527ed95eddbff3927cdbd6871f.html" id="instansive_61911d527e" name="instansive_61911d527e"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+         </div>
+         </div>
       </div>
       <!-- Parte del Audio -->
       <div class="col-sm-3"> 
@@ -404,22 +479,21 @@
           <source src="http://206.217.207.207:8025/stream.aac" type="audio/mpeg"/>
         </audio>
         <!-- Parte de Facebook -->
-        <h5 class="titulos_pg">SÍGUENOS EN FACEBOOK</h5>
           <div class="fb-page" data-href="https://www.facebook.com/oyefm93.1" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
              <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/oyefm93.1"><a href="https://www.facebook.com/oyefm93.1">OYE FM Ecuador</a></blockquote>
               </div>
           </div>  
+          <br>
+          <br>
         <!-- Fin de la parte de Facebook-->
         <!-- Parte de Twitter -->
-        <h5 class="titulos_pg">SÍGUENOS EN TWITTER</h5>
+        <h5 class="vc_widget-title">SÍGUENOS EN TWITTER</h5>
           <div class="pull-left">
                 <h5>  
                   <a class="twitter-timeline" href="https://twitter.com/oyefm931" data-widget-id="695267215843672070">Tweets por el @oyefm931.</a>
                 </h5>
           </div> 
         <!-- Fin del Twitter -->  
-          <div data-il data-il-access-token="<!-- Instagram Access Token -->" data-il-username="oyefm" data-il-lang="es" data-il-show-heading="true" data-il-scroll="true" data-il-width="100%" data-il-height="350px" data-il-image-size="medium" data-il-bg-color="#17ad21" data-il-content-bg-color="#F8F8F8" data-il-font-color="#FFFFFF" data-il-cache-media-time="0">
-          </div>
       </div>
       <!-- Fin del Audio -->
     </div> 
@@ -523,11 +597,15 @@
              </div>
 <!-- Inicialización de Megusta face -->
              <div class="footer-widget widget col-md-2">          			
-                    <h3> Me Gusta </h3>
-                      <div>
-                           <div class="fb-like" data-href="http://oyefm.com/imbabura/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true">
-                           </div>
-                      </div>                
+                <h3> Me Gusta </h3>
+                <div>
+                     <div class="fb-like" data-href="http://oyefm.com/imbabura/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true">
+                     </div>
+                </div>
+                <br>
+                <div> 
+                <a href="https://twitter.com/oyefm" class="twitter-follow-button" data-show-count="false" data-lang="es" data-size="large">Seguir a @oyefm</a>
+                </div>
              </div>
          </div>
           <!-- fin del row del footer-->
@@ -574,39 +652,16 @@
 <script type="text/javascript" src="js/plugins.js"></script>
 <script type="text/javascript" src="plugins/prettyPhoto-plugin/js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="plugins/isotope-plugin/js/jquery.isotope.min.js"></script> 
-<script type="text/javascript" src="functions/twitter/jquery.tweet.js"></script>
+
 <script type="text/javascript" src="js/theme.js"></script>
 <script type="text/javascript" src="custom/custom.js"></script>
 
 <!-- Scripts específicos/Página poner aquí -->
-<script src="js/specific/metro-slider.js" type="text/javascript"></script>
 <script src="js/specific/quick-contact.js"  type="text/javascript"></script>
 
-<script>
-  // el script del twiter
-  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-  if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-  
-//el script del facebook 
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-// el cript para facebook de me gusta
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-// para el Instagram
-</script>
-<script src="instalink/instalink-1.8.2.min.js"></script>
-
+<!-- config -->
+<!-- redes sociales -->
+<script src="index/app_redes_sociales.js"></script>
+<script src="//instansive.com/widget/js/instansive.js"></script>
 </body>
 </html>

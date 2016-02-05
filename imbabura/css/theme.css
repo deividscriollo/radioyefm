@@ -1261,13 +1261,13 @@ a.back-top.visible {
 	line-height: 62px;
 	width: 76px;
 	box-shadow: 11px 0 10px -10px rgba(0, 0, 0, 0.1), -11px 0 10px -10px rgba(0, 0, 0, 0.1);	
-	color:#288bb6;
+	color:#82AE35;
 	filter: alpha(opacity=90);
 	-moz-opacity: .9;
 	-khtml-opacity: .9;
 	opacity: .9;
 	border-radius: 0 50px 50px 0;
-	border-right:6px solid #288bb6;
+	border-right:6px solid #82AE35;
 }
 .vc_anim .vc_category i, .vc_anim .vc_category .glyphicon{
 	font-size:24px;
@@ -1665,9 +1665,11 @@ footer .widget{
 	width: 180px;
 	height: 152px;
 	float: left;
+	border-radius: 0.4em;
 	background: url("../img/stripe.gif");
 }
 .vc_client .vc_carousel > div:hover {
+	border-radius: 0.4em;
 	background: url("../img/stripe-2.gif");
 }
 .vc_client .vc_carousel > div:first-child {
@@ -2084,6 +2086,7 @@ footer .widget h3{
 	height:16px;
 	width::460px;
 	display:block;
+	border-radius: 0.4em;
 }
 
 /*-------------------------------
@@ -2143,10 +2146,10 @@ header .vc_primary-menu-wrapper{
 
 }
 .vc_sub-menu-bg {
-	width: 200%;
-	height: 40px;
-	/*	border-left      : 20px solid #33373D;*/
-	position: absolute;
+	width: 99%;
+	height: 48px;
+	border-left: 20px solid #82AE35;
+	position: inherit;
 	z-index: -2;
 	top: 0;
 	left: 100px;
@@ -2463,7 +2466,8 @@ header .vc_primary-menu-wrapper{
 }
 .vc_contact-top i, .vc_contact-top .glyphicon{
 	color: #81AD35;
-	margin-right: 2px;
+	margin-right: 8px;
+	margin-top: 12px;
 }
 .vc_contact-top a{
 	color: #000;

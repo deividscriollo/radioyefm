@@ -107,7 +107,7 @@
             </div>
         </div>
 
-            <div class="brand-name-subtext">pagina web en construcción</div>
+            <div class="brand-name-subtext">Pagina web en construcción</div>
           
 
         </div>
