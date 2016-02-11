@@ -315,9 +315,9 @@ blockquote small{
 	background:#F5F5F5;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
-	border-top: 3px solid #2CA9DF;
+	border-top: 3px solid #80A63A;
 	background:#FFF;
-	color:#0088CC;
+	color:#658D39;
 }
 .tab-content{
 	border:1px solid #DDD;
@@ -400,8 +400,8 @@ blockquote small{
 }
 
 .panel-group .panel-heading{
-	padding:15px;
-	border-top: 3px solid #2CA9DF;		
+	padding:20px;
+	border-top: 3px solid #82AE35;		
 }
 .panel-group .panel-heading a{
 	color: #555555;

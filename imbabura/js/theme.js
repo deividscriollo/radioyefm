@@ -133,8 +133,8 @@ jQuery(document).ready(function($)
 
 
 		// Active Menu
-		var active_page = $('header').attr('data-active');
-		$('header .vc_primary-menu > ul > li#'+active_page).addClass('active');
+			// var active_page = $('header').attr('data-active');
+			// $('header .vc_primary-menu > ul > li#'+active_page).addClass('active');
 
 
 		/* Newsletter Subscribe. 

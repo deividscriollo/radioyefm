@@ -82,10 +82,10 @@
                     <a href="index.php"> Home <i class="fa fa-home"> </i> </a>
                   </li>
                   <li id="contact"> 
-                    <a href="index.php"> Corporativo </a>
+                    <a href="data/corporativo"> Corporativo </a>
                   </li>
                   <li id="contact"> 
-                    <a href="contact.php"> Programación </a> 
+                    <a href="data/programas/"> Programación </a> 
                   </li>
                   <li id="contact"> 
                     <a href="contact.php"> Podcast </a> 
@@ -327,7 +327,7 @@
                     <div class="description">
                       <p> El banco de inversión Bank of America se encuentra a la espera de que el Gobierno venezolano...
                       <br> 
-                      <a href="blog-single.php" class="vc_btn btn-small">leer más...</a> </p>
+                      <a href="blog-single.php" class="vc_btn btn-small">Leer más...</a> </p>
                     </div>
                   </div>
                 </article>
@@ -355,7 +355,7 @@
                     <div class="description">
                       <p> El banco de inversión Bank of America se encuentra a la espera de que el Gobierno venezolano...
                       <br> 
-                      <a href="blog-single.php" class="vc_btn btn-small">leer más...</a> </p>
+                      <a href="blog-single.php" class="vc_btn btn-small">Leer más...</a> </p>
                     </div>
                   </div>
                 </article>
@@ -383,7 +383,7 @@
                     <div class="description">
                       <p> El banco de inversión Bank of America se encuentra a la espera de que el Gobierno venezolano...
                       <br> 
-                      <a href="blog-single.php" class="vc_btn btn-small">leer más...</a> </p>
+                      <a href="blog-single.php" class="vc_btn btn-small">Leer más...</a> </p>
                     </div>
                   </div>
                 </article>
@@ -629,7 +629,8 @@
               </div>
               <div class=" col-sm-12 col-md-6 pie_pg">
                 <div class="menu pull-right"> 
-                	<a href="pages-faq.php" > Home </a> <a href="pages-sitemap.php"> Corporativo </a> <a href="pages-sitemap.php"> Programación </a> <a href="contact.php"> Podcast </a> <a href="contact.php"> Noticias </a> <a href="contact.php"> Contactos </a>              </div>
+                	<a href="index.php" > Home </a> <a href="data/corporativo"> Corporativo </a> <a href="data/programas"> Programación </a> <a href="contact.php"> Podcast </a> <a href="contact.php"> Noticias </a> <a href="contact.php"> Contactos </a>              
+                </div>
               </div>
             </div>
           </div>
