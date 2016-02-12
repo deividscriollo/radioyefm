@@ -53,7 +53,10 @@
 </head>   
 	<!-- Fin del Head -->
     <!-- Inicio del Body -->
-<body class="  clearfix" data-smooth-scrolling="1">     
+<body class="  clearfix" data-smooth-scrolling="1">    
+<?php 
+include_once("analyticstracking.php")
+?> 
 	<div class="vc_body">
 	<!-- Inicio del Header -->
     <header data-active="home" class="header-1 mode-1" id="header">

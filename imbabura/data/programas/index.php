@@ -172,16 +172,16 @@
                       <img src="../../img/client-logo/banner_despertador.png" >
                   </div>
                   <div class="item">
-                      <img src="../../img/client-logo/sarten.png" >
+                      <img src="../../img/client-logo/banner_LaSarten.png" >
                   </div>
                   <div class="item">
-                      <img src="../../img/client-logo/InBox.png" >
+                      <img src="../../img/client-logo/banner_InBox.png" >
                   </div>
                   <div class="item">
-                      <img src="../../img/client-logo/Banner_hp.png" >
+                      <img src="../../img/client-logo/banner_losHP.png" >
                   </div>
                   <div class="item">
-                      <img src="../../img/client-logo/SinFormatos.png" >
+                      <img src="../../img/client-logo/banner_SinFormatos.png" >
                   </div>
               </div>
               <!-- Controles del Carousel -->
@@ -616,7 +616,7 @@
               <article class="blog-row clearfix">
               <h3> Solo Los Viernes</h3>
                   <div class="blog-left">
-                    <div class="vc_anim vc_anim-slide"> <a href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="../../img/slider/oscar_dj3.jpg"  /> </a>
+                    <div class="vc_anim vc_anim-slide"> <a href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="../../img/client-logo/banner_DjOcaSerrano.png"  /> </a>
                       <div class="vc_hover">
                         <div class="hover-wrapper">
                           <div class="icon-wrapper">
