@@ -47,12 +47,7 @@
     <link rel="stylesheet" href="leaflet.css" />
     <script src="leaflet.js"></script>
     <!-- Head SCRIPTS -->
-    <script type="text/javascript" src="../../js/modernizr.js"></script> 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script type="text/javascript" src="../../js/html5shiv.js"></script>
-      <script type="text/javascript" src="../../js/respond.min.js"></script>
-    <![endif]-->   
+
 </head>   
   <!-- Fin del Head -->
     <!-- Inicio del Body -->
@@ -168,39 +163,7 @@
     <div class="row">
       <div class="col-sm-9">
         <div class="row">
-          <!-- Inicio del los  Items del Carousel -->
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                  <div class="item active">
-                      <img src="../../img/slider/banner1.jpg" >
-                  </div>
-                  <div class="item">
-                      <img src="../../img/slider/banner2.jpg" >
-                  </div>
-                  <div class="item">
-                      <img src="../../img/slider/banner3.jpg" >
-                  </div>
-                  <div class="item">
-                      <img src="../../img/slider/banner4.jpg" >
-                  </div>
-                  <div class="item">
-                      <img src="../../img/slider/banner5.jpg" >
-                  </div>
-              </div>
-              <!-- Controles del Carousel -->
-              <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                 <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                 <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-           </div>
-        </div>
-        <!-- Fin del los  Items del Carousel -->
-        <hr>
-<!-- Inicio de Filosofía -->
-       <div class="col-md-12">
-            <h5 class="vc_widget-title text-center">Como LLegar</h5>
+      <div class="col-md-12">
 <!--para el mapa-->
                 <div id="map" style="height: 400px; margin-top: 20px"></div>
                 <script>
@@ -220,72 +183,113 @@
 
                   L.marker([0.348742, -78.123154,12], {icon: greenIcon}).addTo(map)
                     .bindPopup('<div class="container"><a href="http://oyeecuador.com/"><img src="images/logo2.png"></a></div><p class="letras">Dir: Av. Mariano Acosta - Jaime Rivadeneira</p><p class="letras">Tlf: (06) 260-6027</p><p class="letras">Sitio Web: www.oyefm.com</p>');
+
                       //.openPopup();
                 </script>
         </div>
-<!-- Fin del Mapa -->
+       </div>
+        <hr>
+<!--Fin del Mapa-->
 <!-- Inicio de los Integrantes -->
 <div class="col-md-12">
-<h5 class="vc_widget-title text-center">Corporativo Principal</h5>
-       <div class="row text-center">
-            <div class="col-md-4">
-              <div class="vc_icon-round vc_center"  >
-                <div class="bg-wrapper">
-                  <div class="bg"> <img alt="example image" src="../../img/about/01.jpg"> </div>
+<h5 class="vc_widget-title text-center">Contactos</h5>
+<br>
+<div class="vc_contact-us">
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Escribenos a Nuestro<span class="vc_main-color"> Email</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco.</p>
+            <div id="contact-form-result">
+              <div id="success" class="alert alert-success hidden">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.</div>
+              <div id="error" class="alert alert-danger hidden">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+              </div>
+              <div id="empty" class="alert alert-danger hidden">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Please <strong>Fill up</strong> all the Fields and Try Again.</div>
+              <div id="unexpected" class="alert alert-danger hidden">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                An <strong>unexpected error</strong> occured. Please Try Again later.</div>
+            </div>
+            <form id="contactos" name="contactos" method="post">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group hass-error">
+                    <label class="control-label" for="contact-form-name">Nombre<span class="vc_red">*</span></label>
+                    <div class="controls">
+                      <input type="text" placeholder="" id="nombre" name="nombre" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group hass-error">
+                    <label class="control-label" for="contact-form-email">Email<span class="vc_red">*</span></label>
+                    <div class="controls">
+                      <input type="email" placeholder="" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group hass-error">
+                    <label class="control-label" for="contact-form-service">Servicio</label>
+                    <div class="controls">
+                      <select id="servicio" name="servicio">
+                        <option>Mensaje Normal</option>
+                        <option>Quejas</option>
+                        <option>Comentario</option>
+                        <option>Sugerencias</option>
+                      </select>
+                    </div>
+                  </div>
+                </div> <!-- col-md-4 -->
+              </div> <!-- row -->
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group hass-error">
+                    <label  for="contact-form-subject">Tema<span class="vc_red">*</span></label>                    
+                    <div class="controls">
+                      <input type="text" placeholder="" id="tema" name="tema" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"/>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="vc_splitter"></div>
-              <h3 style="margin-bottom:0;">XXX</h3>
-              <p> <em>CEO</em> </p>
-              <a class="vc_btn btn-small" href="">Leer Mas...</a> </div>
-            <div class="col-md-4">
-              <div class="vc_icon-round vc_center"  >
-                <div class="bg-wrapper">
-                  <div class="bg"> <img alt="example image" src="../../img/about/02.jpg"> </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group hass-error">
+                    <label for="contact-form-message">Mensaje<span class="vc_red">*</span></label>                   
+                    <div class="controls">
+                      <textarea  rows="10" cols="58" id="mensaje" name="mensaje" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"></textarea>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="vc_splitter"></div>
-              <h3 style="margin-bottom:0;">XXX </h3>
-              <p> <em>Presidente</em> </p>
-              <a class="vc_btn btn-small" href="">Leer Mas...</a> </div>
-            <div class="col-md-4">
-              <div class="vc_icon-round vc_center"  >
-                <div class="bg-wrapper">
-                  <div class="bg"> <img alt="example image" src="../../img/about/03.jpg"> </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button class="vc_btn" type="submit" id="enviar" >Enviar Mensaje</button>
                 </div>
               </div>
-              <div class="vc_splitter"></div>
-              <h3 style="margin-bottom:0;">XXX</h3>
-              <p> <em>Co-Fundador</em> </p>
-              <a class="vc_btn btn-small" href="">Leer Mas...</a> </div>
-          </div><!-- row -->
+            </form>
+          </div>
+        </div>
+        <!-- .row -->         
+      </div>
+      <!-- .container -->        
+    </div>
+    <!-- .wrapper -->    
+  </div>
+  <!-- .vc_contact-us -->   
+<!-- Middle Content End -->
 </div>
 <!-- Fin de los Integrantes -->
 </div> 
 <!-- Fin del Row 9-->
 <!-- Inicio de Audio parte Derecha -->
-     <div class="col-sm-3"> 
-        <img src="../../img/escucha_la_radio.png" alt="">
-        <audio controls autoplay style="width:100%">
-          <source src="http://206.217.207.207:8025/stream.aac" type="audio/mpeg"/>
-        </audio>
-        <!-- Parte de Facebook -->
-          <div class="fb-page" data-href="https://www.facebook.com/oyefm93.1" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-             <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/oyefm93.1"><a href="https://www.facebook.com/oyefm93.1">OYE FM Ecuador</a></blockquote>
-              </div>
-          </div>  
-          <br>
-          <br>
-        <!-- Fin de la parte de Facebook-->
-        <!-- Parte de Twitter -->
-        <h5 class="vc_widget-title">SÍGUENOS EN TWITTER</h5>
-          <div class="pull-left">
-                <h5>  
-                  <a class="twitter-timeline" href="https://twitter.com/oyefm931" data-widget-id="695267215843672070">Tweets por el @oyefm931.</a>
-                </h5>
-          </div> 
-        <!-- Fin del Twitter -->  
-      </div>
+
 <!-- Fin de Audio parte Derecha -->
 <!-- Fin del Row Principal de 9-->     
   </div>
@@ -386,17 +390,7 @@
                  </div>            
              </div>
 <!-- Inicialización de Megusta face -->
-             <div class="footer-widget widget col-md-2">                
-                <h3> Me Gusta </h3>
-                <div>
-                     <div class="fb-like" data-href="http://oyefm.com/imbabura/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true">
-                     </div>
-                </div>
-                <br>
-                <div> 
-                <a href="https://twitter.com/oyefm" class="twitter-follow-button" data-show-count="false" data-lang="es" data-size="large">Seguir a @oyefm</a>
-                </div>
-             </div>
+             
          </div>
           <!-- fin del row del footer-->
         </div>
@@ -435,7 +429,9 @@
 
 <!-- Javascript =============================================== --> 
 <!-- Situado al final del documento para que las páginas se cargen más rápido --> 
+
 <script type="text/javascript" src="../../js/jquery.js"></script> 
+<script type="text/javascript" src="contactos.js"></script> 
 <script type="text/javascript" src="../../js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="../../js/tinyscrollbar.js"></script> 
 <script type="text/javascript" src="../../js/caroufredsel.js"></script> 
@@ -443,17 +439,19 @@
 <script type="text/javascript" src="../../plugins/prettyPhoto-plugin/js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="../../plugins/isotope-plugin/js/jquery.isotope.min.js"></script> 
 
-<script type="text/javascript" src="../../js/theme.js"></script>
+
 <script type="text/javascript" src="../../custom/custom.js"></script>
+
 
 <!-- Scripts específicos/Página poner aquí -->
 <script src="../../js/specific/quick-contact.js"  type="text/javascript"></script>
 
-<script type="text/javascript" src="https://maps.here.com/directions/drive//OYE-FM-Ecuador:0.348668,-78.123442?map=0.33307,-78.09779,12,normal&fb_locale=es_ES"></script> 
+
 
 <!-- config -->
 <!-- redes sociales -->
-<script src="../../index/app_redes_sociales.js"></script>
-<script src="//instansive.com/widget/js/instansive.js"></script>
+
+
+<script type="text/javascript" src="contactos.js"></script> 
 </body>
 </html>
