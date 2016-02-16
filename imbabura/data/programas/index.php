@@ -240,7 +240,7 @@
                   </ul>
                   <div class="tab-content">
                     <div class="tab-pane active" id="programa1-tab-descripcion">
-                      <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                      <p> Este espacio es un avance informativo, Con información de Noticias de interés, Internacionales, Nacionales, Regionales y locales, considerado de igual manera un espacio de Entrevistas a los actores de los hechos y aconteceres noticiosos del momento con la finalidad de llegar a brindar una información verídica a nuestros radio escuchas.</p>
                     </div>
                     <div class="tab-pane sidebar-widget" id="programa1-tab-conducion">
                       <div class="vc_blog-list">
@@ -331,7 +331,7 @@
                   </ul>
                   <div class="tab-content">
                     <div class="tab-pane active" id="programa2-tab-descripcion">
-                      <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                      <p> Un programa que se caracteriza por ser manejado por un grupo de mujeres de tipo revista familiar donde la creatividad, el buen sentido del humor, la cocina, el deporte, temas de familia, novedades del espectáculo, belleza, salud, buena música compuesto así también con la presencia de especialistas en distintos ámbitos de interés social y familiar con propuestas actuales y de interés son parte de la diversión y el entretenimiento para el público oyente.</p>
                     </div>
                     <div class="tab-pane sidebar-widget" id="programa2-tab-conducion">
                       <div class="vc_blog-list">
@@ -431,7 +431,7 @@
                   </ul>
                   <div class="tab-content">
                     <div class="tab-pane active" id="programa3-tab-descripcion">
-                      <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                      <p> Un espacio juvenil con propuestas actuales, entretenido, dinámico y con una buena selección musical y dosis de buen humor además de variación y complacencia para los oyentes, brinda espacios de interés compuesto por varias segmentaciones de jocosidad y saludos para quienes están siempre conectados, Posee interacción de entrevistas a la semana para brindar espacios a los talentos tanto locales como nacionales dentro del ámbito juvenil principalmente.</p>
                     </div>
                     <div class="tab-pane sidebar-widget" id="programa3-tab-conducion">
                       <div class="vc_blog-list">
@@ -506,7 +506,7 @@
                   </ul>
                   <div class="tab-content">
                     <div class="tab-pane active" id="programa4-tab-descripcion">
-                      <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                      <p>Una programación con dirección cultural e interactivo donde el público elige todas las canciones que sonarán durante la programación. Matizado con biografías, segmentos especiales, entrevistas, chacota, estreno del mundo rock y la más interesante información de variedades</p>
                     </div>
                     <div class="tab-pane sidebar-widget" id="programa4-tab-conducion">
                       <div class="vc_blog-list">

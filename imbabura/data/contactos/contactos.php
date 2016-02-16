@@ -1,6 +1,9 @@
 <?php 
+
+error_reporting(0);
+
 $destinatario = "natykhuera@hotmail.com"; 
-$asunto = "Este mensaje es de prueba"; 
+$asunto = "Correo Contactos OYEFM"; 
 $cuerpo = ' 
 <html> 
 <head> 
@@ -9,7 +12,7 @@ $cuerpo = '
 <body> 
 <h1>Hola amigos!</h1> 
 <p> 
-<b>Bienvenidos a mi correo electrónico de prueba</b>. Estoy encantado de tener tantos lectores. Este cuerpo del mensaje es del artículo de envío de mails por PHP. Habría que cambiarlo para poner tu propio cuerpo. Por cierto, cambia también las cabeceras del mensaje. 
+<b>RADIO OYEFM</b>. '.$_POST['nombre'].'
 </p> 
 </body> 
 </html> 
@@ -28,11 +31,11 @@ $headers .= "Reply-To: mariano@desarrolloweb.com\r\n";
 //ruta del mensaje desde origen a destino 
 $headers .= "Return-path: holahola@desarrolloweb.com\r\n"; 
 
-//direcciones que recibián copia 
-$headers .= "Cc: maria@desarrolloweb.com\r\n"; 
 
-//direcciones que recibirán copia oculta 
-$headers .= "Bcc: pepe@pepe.com,juan@juan.com\r\n"; 
+$data = 0;
+echo $data;
 
 mail($destinatario,$asunto,$cuerpo,$headers) 
+
+
 ?>

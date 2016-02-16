@@ -221,7 +221,7 @@
                   <div class="form-group hass-error">
                     <label class="control-label" for="contact-form-name">Nombre<span class="vc_red">*</span></label>
                     <div class="controls">
-                      <input type="text" placeholder="" id="nombre" name="nombre" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}" />
+                      <input type="text" placeholder="Nombre" id="nombre" name="nombre" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}" />
                     </div>
                   </div>
                 </div>
@@ -229,7 +229,7 @@
                   <div class="form-group hass-error">
                     <label class="control-label" for="contact-form-email">Email<span class="vc_red">*</span></label>
                     <div class="controls">
-                      <input type="email" placeholder="" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" />
+                      <input type="email" placeholder="E-mail" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" />
                     </div>
                   </div>
                 </div>
@@ -253,7 +253,7 @@
                   <div class="form-group hass-error">
                     <label  for="contact-form-subject">Tema<span class="vc_red">*</span></label>                    
                     <div class="controls">
-                      <input type="text" placeholder="" id="tema" name="tema" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"/>
+                      <input type="text" placeholder="Tema" id="tema" name="tema" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"/>
                     </div>
                   </div>
                 </div>
@@ -263,14 +263,15 @@
                   <div class="form-group hass-error">
                     <label for="contact-form-message">Mensaje<span class="vc_red">*</span></label>                   
                     <div class="controls">
-                      <textarea  rows="10" cols="58" id="mensaje" name="mensaje" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"></textarea>
+                      <textarea  rows="10" cols="58" id="mensaje" name="mensaje" placeholder="Escribe aqui tu comentario" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"></textarea>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <button class="vc_btn" type="submit" id="enviar" >Enviar Mensaje</button>
+                <!--<input class="vc_btn" type="button" id="enviar" value="Enviar">-->
+                <button class="vc_btn" type="submit" id="enviar" >Enviar Mensaje</button>
                 </div>
               </div>
             </form>
