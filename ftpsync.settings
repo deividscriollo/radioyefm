@@ -7,7 +7,7 @@
 		"host": "www.nextbook.ec",
 		"username": "nextbook",  // or null for anonymous login
 		"password": "EiCZTO.ePLFIP",
-		"path": "/public_html/oyeecuador.com",
+		"path": "/public_html/oyeecuador.com/",
 
 		"upload_on_save": true, // set *false* if you do not want to upload on save!
 
