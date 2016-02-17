@@ -16,25 +16,38 @@ function comprobarCamposRequired(form){
     return correcto; 
 }
 
-$("input").on("keyup click",function (e){//campos requeridos		
+$("input").on("click",function (e){//campos requeridos		
 	comprobarCamposRequired(e.currentTarget.form.id)
 });
 
 function enviar_correos() {
 var resp = comprobarCamposRequired('contactos');
+
+alert(resp)
+
 if (resp == true) {
 	$("#contactos").submit(function(e) {		
 		var valores = $("#contactos").serialize();
-		var texto=($("#enviar").text()).trim();
 
-		if (texto == "Enviar Mensaje") {
-			datos_correo(valores,e)
-
-		}
-		//jQuery('#contactos').preventDoubleSubmit();
+		$.ajax({				
+			url: "contactos.php",
+	        type: "POST",
+		    success: function(data) {	
+		    	if( data == 0 ){
+		    		alert('Datos Agregados Correctamente');
+					
+		    		//limpiar_form(p);	
+		    		//$('#table').trigger('reloadGrid');							
+		    	}else{
+					
+		    	}
+			}
+		});
+		//$('#contactos').preventDoubleSubmit();
+		
 		e.preventDefault();	
 		$(this).unbind("submit")
-		//$("#contactos").submit();
+
 	});
 }
 }
@@ -47,22 +60,19 @@ function datos_correo(valores,p) {
 	    success: function(data) {	
 	    	if( data == 0 ){
 	    		alert('Datos Agregados Correctamente');
-				return false;
+				
 	    		//limpiar_form(p);	
 	    		//$('#table').trigger('reloadGrid');							
 	    	}else{
-	
+				return false;
 	    	}
 		}
 	});
 
-
 }
-
-
 function inicio () {
 	// cargar mapa 
-
-
-	$("#enviar").on("click", enviar_correos);
+	$("#enviar").on("click",function(){
+		console.log('test');
+	});
 }

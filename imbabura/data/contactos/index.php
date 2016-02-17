@@ -215,7 +215,7 @@
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                 An <strong>unexpected error</strong> occured. Please Try Again later.</div>
             </div>
-            <form id="contactos" name="contactos" method="post">
+            <form id="contactos">
               <div class="row">
                 <div class="col-md-4">
                   <div class="form-group hass-error">
@@ -271,7 +271,7 @@
               <div class="row">
                 <div class="col-md-12">
                 <!--<input class="vc_btn" type="button" id="enviar" value="Enviar">-->
-                <button class="vc_btn" type="submit" id="enviar" >Enviar Mensaje</button>
+                  <button class="vc_btn" type="submit" id="enviar" >Enviar Mensaje</button>
                 </div>
               </div>
             </form>
