@@ -1,0 +1,87 @@
+<div class="text-center animated slideInUp">
+<h5 class="vc_widget-title">Ecuentranos en: Av. Jaime Rivadeneira 6-100 y Av. Mariano Acosta (esquina - 3 piso) Edificio Conceptual</h5>
+<div id="map" style="height: 450px; margin-top: 0px"></div>
+<!-- Inicio de los contactos -->
+<h5 class="vc_widget-title">Contactos</h5>
+<br>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Escribenos a Nuestro<span class="vc_main-color"> Email</span></h2>
+            <div id="contact-form-result">
+	              <div id="success" class="alert alert-success hidden">
+	                <button type="button" class="close" data-dismiss="alert">&times;</button>
+	                We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.</div>
+	              <div id="error" class="alert alert-danger hidden">
+	                <button type="button" class="close" data-dismiss="alert">&times;</button>
+	              </div>
+	              <div id="empty" class="alert alert-danger hidden">
+	                <button type="button" class="close" data-dismiss="alert">&times;</button>
+	                Please <strong>Fill up</strong> all the Fields and Try Again.</div>
+	              <div id="unexpected" class="alert alert-danger hidden">
+	                <button type="button" class="close" data-dismiss="alert">&times;</button>
+	                An <strong>unexpected error</strong> occured. Please Try Again later.</div>
+            </div>
+        <form id="contactos">
+              <div class="row">
+	                <div class="col-md-4">
+		                  <div class="form-group hass-error">
+		                    <label class="control-label" for="contact-form-name">Nombre<span class="vc_red">*</span></label>
+		                    <div class="controls">
+		                      <input type="text" placeholder="Nombre" id="nombre" name="nombre" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}" />
+		                    </div>
+		                  </div>
+	                </div>
+	                <div class="col-md-4">
+		                  <div class="form-group hass-error">
+		                    <label class="control-label" for="contact-form-email">Email<span class="vc_red">*</span></label>
+		                    <div class="controls">
+		                      <input type="email" placeholder="E-mail" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" />
+		                    </div>
+		                  </div>
+	                </div>
+	                <div class="col-md-4">
+		                  <div class="form-group hass-error">
+		                    <label class="control-label" for="contact-form-service">Servicio</label>
+		                    <div class="controls">
+		                      <select id="servicio" name="servicio">
+		                        <option>Mensaje Normal</option>
+		                        <option>Quejas</option>
+		                        <option>Comentario</option>
+		                        <option>Sugerencias</option>
+		                      </select>
+		                    </div>
+		                  </div>
+	                </div> <!-- col-md-4 -->
+              </div> <!-- row -->
+
+              <div class="row">
+	                <div class="col-md-12">
+	                  <div class="form-group hass-error">
+	                    <label  for="contact-form-subject">Tema<span class="vc_red">*</span></label>                    
+	                    <div class="controls">
+	                      <input type="text" placeholder="Tema" id="tema" name="tema" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"/>
+	                    </div>
+	                  </div>
+	                </div>
+              </div>
+              <div class="row">
+	                <div class="col-md-12">
+	                  <div class="form-group hass-error">
+	                    <label for="contact-form-message">Mensaje<span class="vc_red">*</span></label>                   
+	                    <div class="controls">
+	                      <textarea  rows="10" cols="58" id="mensaje" name="mensaje" placeholder="Escribe aqui tu comentario" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ0-9 ]{1,}"></textarea>
+	                    </div>
+	                  </div>
+	                </div>
+              </div>
+              <div class="row">
+	                <div class="col-md-12">
+	                <!--<input class="vc_btn" type="button" id="enviar" value="Enviar">-->
+	                  <button class="vc_btn" type="submit" id="enviar" >Enviar Mensaje</button>
+	                </div>
+              </div>
+        </form>
+      	</div>
+    </div>
+<!-- Fin del row principal-->           
+</div>

@@ -28,7 +28,7 @@
     font-weight: bold;
     font-style: normal;
 }
-@font-face {
+/*@font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfontba72.svg?v=4.0.3#fontawesomeregular') format('svg');
   src: url('../fonts/fontawesome-webfontba72.eot?v=4.0.3'), 
@@ -37,7 +37,7 @@
 	   url('../fonts/fontawesome-webfontba72.ttf?v=4.0.3') format('truetype') ;
   font-weight: normal;
   font-style: normal;
-}
+}*/
 @font-face{
 	font-family:'Glyphicons Halflings';
 	src:url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');

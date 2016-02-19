@@ -190,34 +190,34 @@ jQuery(document).ready(function($)
 		
 		/* Twitter Feeds. 
 		   Used: Footer, Widget  */
-		$("#twitter-feeds").tweet({
-			modpath: '/functions/twitter/',
-			username: "envato",
-			join_text: "auto",
-			count: 8,
-			auto_join_text_default: "we said,", 
-			auto_join_text_ed: "we",
-			auto_join_text_ing: "we were",
-			auto_join_text_reply: "we replied to",
-			auto_join_text_url: "we were checking out",
-			loading_text: "loading tweets..."
-		}); 
-		$('#twitter-feeds .tweet_list').addClass('vc_li vc_carousel');	
+		// $("#twitter-feeds").tweet({
+		// 	modpath: '/functions/twitter/',
+		// 	username: "envato",
+		// 	join_text: "auto",
+		// 	count: 8,
+		// 	auto_join_text_default: "we said,", 
+		// 	auto_join_text_ed: "we",
+		// 	auto_join_text_ing: "we were",
+		// 	auto_join_text_reply: "we replied to",
+		// 	auto_join_text_url: "we were checking out",
+		// 	loading_text: "loading tweets..."
+		// }); 
+		// $('#twitter-feeds .tweet_list').addClass('vc_li vc_carousel');	
 			
-		$("#twitter-feeds-mini").tweet({
-			modpath: '/functions/twitter/',
-			username: "envato",
-			join_text: "auto",
-			count: 4,
-			auto_join_text_default: "we said,", 
-			auto_join_text_ed: "we",
-			auto_join_text_ing: "we were",
-			auto_join_text_reply: "we replied to",
-			auto_join_text_url: "we were checking out",
-			loading_text: "loading tweets..."
-		}); 	
-		$('#twitter-feeds-mini .tweet_list').addClass('vc_carousel');	
-		$('#twitter-feeds-mini .tweet_list li').addClass('vc_carousel-column');							
+		// $("#twitter-feeds-mini").tweet({
+		// 	modpath: '/functions/twitter/',
+		// 	username: "envato",
+		// 	join_text: "auto",
+		// 	count: 4,
+		// 	auto_join_text_default: "we said,", 
+		// 	auto_join_text_ed: "we",
+		// 	auto_join_text_ing: "we were",
+		// 	auto_join_text_reply: "we replied to",
+		// 	auto_join_text_url: "we were checking out",
+		// 	loading_text: "loading tweets..."
+		// }); 	
+		// $('#twitter-feeds-mini .tweet_list').addClass('vc_carousel');	
+		// $('#twitter-feeds-mini .tweet_list li').addClass('vc_carousel-column');							
 		/* Primary Menu Responsive Button
 		   used: header
 		*/			
@@ -236,300 +236,4 @@ jQuery(document).ready(function($)
 		});		
 		
 		
-});
-
-/* Window Load State. 
-   Used: Global 
-   Info: Basically we gather up all carousels in this state
-   */	
-$(window).load(function()
-	{		
-		/* Latest Portfolio Carousel Widget.  
-		   Used: index.html, index-portfolio.html, index-revolution.html */
-		$(".vc_latest-portfolio .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-				}
-			},
-			next:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-				}
-			},
-			width: '100%',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 2000
-			},
-			scroll:{
-				items: 1,
-				duration: 400,
-				wipe: true
-			},
-			items:{
-				visible:{
-					min: 1,
-					max: 3
-				},
-				width: 480,
-				height: 'auto'
-			}
-		});
-		
-		/* Latest Portfolio Carousel Widget.  
-		   Used: index.html, index-portfolio.html, index-revolution.html */
-		$(".vc_instagram .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-				}
-			},
-			next:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-				}
-			},
-			width: '100%',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 2000
-			},
-			scroll:{
-				items: 1,
-				duration: 400,
-				wipe: true
-			},
-			items:{
-				visible:{
-					min: 1,
-					max: 3
-				},
-				width: 480,
-				height: 'auto'
-			}
-		});
-		
-		/* Client Carousel Widget.  
-		   Used: index.html, index-portfolio.html, index-revolution.html, about.html */
-		$(".vc_client .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.met_carousel_control').children('a:first-child')
-				}
-			},
-			next:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.met_carousel_control').children('a:last-child')
-				}
-			},
-			width: 'auto',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 1000
-			},
-			items:{
-				visible:{
-					min: 1,
-					max: 6
-				},
-				height: 152
-			},
-			pagination  : ".vc_client .vc_pager"
-		});
-
-		/* Testimonial Carousel Widget.  
-		   Used: about.html */
-		testimonial();   
-		function testimonial(){   
-		   $(".vc_testimonial .vc_carousel").carouFredSel({
-				direction: "down",
-				height: 'variable',
-				width: 'variable',
-				items: {
-						visible: 1,
-						width: 'auto'	
-				},
-				auto: 5000,
-				circular: false,
-				infinite: true,
-				pagination  : ".vc_testimonial-pager"				
-			});
-		}
-
-		/* Sidebar Portfolio Carousel Widget.  
-		   Used: Every page with sidebar */		
-		$(".vc_portfolio-widget .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function()
-				{
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-				}
-			},
-			next:{
-				button : function()
-				{
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-				}
-			},
-			width: '100%',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 2000
-			},
-			items:{
-				visible:{
-					min: 1,
-					max: 2
-				},
-				width:480,
-				height: 'auto'
-			}
-		});
-		
-		/* Single Portfolio Carousel Widget.  
-		   Used: portfolio-single-project-full-width.html, portfolio-single-project.html */				
-		$(".vc_single-portfolio .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-				}
-			},
-			next:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-				}
-			},
-			width: '100%',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 2000
-			},
-			items:{
-				visible:{
-					max: 1
-				},
-				width:570,
-				height: 'auto'
-			}
-		});	
-		
-		/* Related Project Carousel Widget.  
-		   Used: portfolio-single-project-full-width.html, portfolio-single-project.html, blog-single.html */
-		$(".vc_related-project .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function()
-				{
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-				}
-			},
-			next:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-				}
-			},
-			width: '100%',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 2000
-			},
-			scroll:{
-				items: 4,
-				duration: 400,
-				wipe: true
-			},
-			items:{
-				visible:{
-					min: 1,
-					max: 4
-				},
-				width: 277,
-				height: 'auto'
-			}
-		});		
-
-		/* Twitter Carousel Widget. 
-		   Used: footer 3rd Column  */			   
-		update_twitter();
-		$(window).resize(function(){
-			resize_twitter();
-			testimonial();
-		});			   	
-		function update_twitter(){
-			$(".vc_twitter .vc_carousel").carouFredSel({
-				direction: "down",
-				height: 'variable',
-				width: '100%',
-				items: {
-						visible: 3,
-						width: 'auto'	
-				},
-				auto: 4000,
-				circular: false,
-				infinite: true,
-				prev:{
-					button : function(){
-						return $(this).parent().parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-					}
-				},
-				next:{
-					button : function(){
-						return $(this).parent().parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-					}
-				}
-			});	
-			$(".vc_twitter .vc_carousel, .vc_twitter .caroufredsel_wrapper").css("width","100%");
-			$(".vc_twitter .vc_carousel").trigger("updateSizes");	
-			
-			$(".vc_twitter-mini .vc_carousel").carouFredSel({
-				width: 'auto',
-				responsive:'true',
-				items: {
-					max: 1
-				},
-				auto: 6000,
-				circular: true,
-				infinite: true,
-				prev:{
-					button : function(){
-						return $(this).parent().parent().parent().parent().children('.vc_carousel-control').children('a:first-child')
-					}
-				},
-				next:{
-					button : function(){
-						return $(this).parent().parent().parent().parent().children('.vc_carousel-control').children('a:last-child')
-					}
-				}
-			});									
-		}	
-		function resize_twitter(){
-			$(".vc_twitter .vc_carousel, .vc_twitter .caroufredsel_wrapper").css("width","100%");
-			$(".vc_twitter .vc_carousel").trigger("updateSizes");							
-		}
-
-									
 });

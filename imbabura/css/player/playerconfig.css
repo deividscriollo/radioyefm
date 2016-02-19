@@ -1,0 +1,241 @@
+div.hidden-on-collapse{
+    display: none;
+}
+
+/*
+    Top Header
+*/
+div#top-header{
+    background-color: #f2f2f2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*width: 370px;*/
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 10px;
+    position: relative;
+    margin-bottom: -50px;
+}
+
+/*
+    Large album container
+*/
+div#top-large-album{
+    /*width: 370px;*/
+    /*height: 370px;*/
+    margin: auto;
+    margin-bottom: -45px;
+    z-index: 0;
+}
+
+/*
+    Large Album Art
+*/
+img#large-album-art{
+    /*width: 370px;*/
+    /*height: 370px;*/
+    /*border-radius: 5px;*/
+}
+
+/*
+    Small Player
+*/
+div#small-player{
+    height: 60px;
+    background-color: rgba(25,25,25,0.5);
+    margin: auto;
+    z-index: 99999;
+    position: relative;
+}
+
+/*
+   Small Player Left
+*/
+div#small-player-left{
+    height: 45px;
+    width: 25px;
+    float: left;
+}
+
+/*
+    Expand and Contract Album Art
+*/
+div.small-player-toggle-expand{
+    background-image: url('../../img/player/expandir.png');
+    transition: background 0.3s ease;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12px;
+    height: 61px;
+    margin-left: 6px;
+    margin-top: 14px;
+}
+
+div.small-player-toggle-contract{
+    background-image: url('../../img/player/minimizar.png');
+    transition: background 0.3s ease;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12px;
+    height: 31px;
+    margin-left: 6px;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*
+    Small Player Album Art
+*/
+img#small-player-album-art{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+/*
+    Small Player Middle
+*/
+div#small-player-middle{
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    /*width: 260px;*/
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    transition: background 0.1s ease;
+}
+div#small-player-middle-top{
+    /*width: 260px;*/
+    float: initial;
+    height: 40px;
+}
+div#small-player-middle-bottom{
+    /*width: 260px;*/
+    float: left;
+}
+
+/*
+    Small Player Middle Meta
+*/
+div#small-player-middle-controls{
+    display: none;
+}
+/*
+    Small Player Right
+*/
+div#small-player-right{
+    width: 25px;
+    float: left;
+    padding-top: 27px;
+}
+
+/*
+    Small Player Full Bottom
+*/
+div#small-player-full-bottom{
+    padding-top: 5px;
+}
+
+/*
+    Small Player Full Bottom Info
+*/
+div#small-player-full-bottom-info{
+    margin: auto;
+    margin-top: -7px;
+    width: 350px;
+}
+/*
+    Play Pause
+*/
+div.amplitude-play-pause{
+    transition: background 0.1s ease;
+    margin: auto;
+    height: 23px;
+    width: 20px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+div.amplitude-paused{
+    transition: 0.5s ease;
+    background-image: url('../../img/player/black-play.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+}
+div.amplitude-playing{
+    transition: background 0.5s ease;
+    background-image: url('../../img/player/black-pause.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 25px;
+    height: 35px;
+}
+
+/*
+    Song Time Visualization
+*/
+div#song-time-visualization{
+    width: 130px;
+    height: 1px;
+    background-color: #82AE35;
+}
+div#song-time-visualization div.amplitude-song-time-visualization-status{
+    background-color: #676261;
+    height: 5px;
+}
+
+div#song-time-visualization-large{
+    /*width: 304px;*/
+    height: 5px;
+    background-color: #82AE35;
+    display: inline-block;
+    vertical-align: middle;
+}
+div#song-time-visualization-large div.amplitude-song-time-visualization-status{
+    background-color: #676261;
+    height: 5px;
+}
+
+/*
+    Now Playing Information
+*/
+div.now-playing-title{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 14px;
+}
+div.album-information{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 12px;
+    color: #bebebe;
+}
+/*
+    Current song time
+*/
+span.current-time{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 10px;
+    color: #676261;
+}
+
+/*
+   Duration
+*/
+span.time-duration{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 10px;
+    color: #676261;
+}
