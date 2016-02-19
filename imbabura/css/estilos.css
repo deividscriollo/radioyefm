@@ -120,3 +120,16 @@
     background-color: #54821F;
   }
 }
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #82AE35;
+  background-image: url('img/slider/player.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
