@@ -5,7 +5,7 @@ $(function(){
 		"songs": [
 			{
 				"name": "Oye Fm",
-				"artist": "Oye, lo que te gusta",
+				"artist": "Oye, ",
 				"album": "Oye",
 				"url": "http://206.217.207.207:8025/stream.aac",
 				"live": true,
@@ -13,7 +13,7 @@ $(function(){
 			}
 		],
 		// "default_album_art": "img/player/no-cover-large.png",
-		// "autoplay": true
+		"autoplay": true
 	});
 
 	var expanded = false;
@@ -106,7 +106,7 @@ function contador(){
 		    	var data = $(x).find('.streamdata');
 		    	var sum = $(data[8]).text().split(':');
 		    	if (sum[0]=='Sorry, service not available. Try again later.') {	    		
-		    		$('[amplitude-song-info="album"]').text('Oye, lo que te gusta');
+		    		$('[amplitude-song-info="album"]').text('lo que te gusta');
 		    		// $('[amplitude-song-info="artist"]').text('Oye,');
 		    	}else{
 		    		// $('[amplitude-song-info="album"]').text(sum[0].substr(0, 15));

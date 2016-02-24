@@ -8,10 +8,6 @@ angular.module('scotchApp').controller('mainController', function ($scope) {
 
   $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false,social_tools: false});
 
-  // chatango 
-
-
-
 
   // el script del twiter
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
