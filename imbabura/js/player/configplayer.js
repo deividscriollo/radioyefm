@@ -1,4 +1,3 @@
-$(function(){
 	contador()
 	setInterval('contador()',5000);
 	Amplitude.init({
@@ -10,7 +9,10 @@ $(function(){
 				"url": "http://206.217.207.207:8025/stream.aac",
 				"live": true,
 				"cover_art_url": "img/player/roomsforadelaide.jpg"
-			}
+			},
+			"volume": .35,
+			"autoplay": true,
+			"default_album_art": "/url/to/default.jpg"
 		],
 		// "default_album_art": "img/player/no-cover-large.png",
 		"autoplay": true
@@ -76,7 +78,6 @@ $(function(){
 		$('#small-player').css('border-top-left-radius', '5px');
 		$('#small-player').css('border-top-right-radius', '5px');
 	});
-});
 function contador(){
 		var horario = new Date();
 		var hora = horario.getHours();

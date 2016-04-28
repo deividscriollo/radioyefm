@@ -1,0 +1,84 @@
+<div class="vc_banner-title background-14 block">
+    <div class="wrapper">
+        <div class="container">
+            <h1>{{params.title}}</h1>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row">
+        <div class="vc_pricing-table">
+            <div class="col-md-7">
+                <h4 class="vc_main-color">Selectivo</h4>
+                <p>Si su objetivo es una audiencia definida por el horario de su preferencia. Transmisión diaria, máximo 2 cuñas por hora.</p>
+                <h4 class="vc_main-color">Rotativo</h4>
+                <p>Se transmite durante toda la programación, llegando de manera efectiva con su publicidad a todo el diverso y amplio grupo objetivo de target medio alto en edades comprendidas de 15 a 45 años. Una vez firmado el contrato con duración de un año, el medio regala una semana de expectativa. (TE ESTAMOS ESPERANDO).
+                </p>
+                <br><hr><br>
+                <h1>Contactarme con un asesor</h1>
+                <form class="form-horizontal" id="sample-form">
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 no-padding-right " for="email">Nombre:</label>
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                                <input type="text" name="email" id="email" class="col-xs-12 col-sm-6 vc_input-inverse input-sm" required="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 no-padding-right " for="email">Email Address:</label>
+
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                                <input type="email" name="email" id="email" class="col-xs-12 col-sm-6 vc_input-inverse input-sm" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 no-padding-right " for="email">Teléfono:</label>
+
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                                <input type="number" name="email" id="email" class="col-xs-12 col-sm-6 vc_input-inverse" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-8">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vc_btn btn-sm" type="submit">
+                                <i class="fa fa-commenting-o"></i> Enviar
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    
+                </form>
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="plan">
+                    <h3>{{params.title}}</h3>
+                    <div class="price">
+                        <span class="main">${{params.precio}}</span>
+                        <span class="suffix">99</span>
+                        <span class="text">Por Mes</span>
+                    </div>
+                    <div class="features">
+                        <h1>{{params.impactos}} Impactos</h1>
+                        <ul >
+                            <li ng-repeat="x in params.programas"><b>{{x.valor}}</b> {{x.nombre}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    </div>
+</div>
