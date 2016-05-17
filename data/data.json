@@ -1,0 +1,38 @@
+{
+    "3": {
+        "title": "Los Aviadores #1 en Ecuador",
+        "subtitulo": "Subtitulo", 
+        "img1": "assets/img/noticias/notici_1.jpg", 
+        "text1": "La agrupación tropical-urbana Los Aviadores alcanzan esta semana el primer lugar de la lista tropical de Monitor Latino en Ecuador con el tema “Pa' Que Lo Gocen canción que los ha llevado a mantenerse semanas tras semanas en los primeros lugares en la República Dominicana y su natal Venezuela.", 
+        "video": "https://www.youtube.com/embed/1oP74GzJqXo",
+        "dia":"Jueves",
+        "mes":"Mayo",
+        "año":"2016",
+        "dianum":"10"
+
+    },
+    "2": {
+        "title": "ANDAS EN MI CABEZA FEAT. DADDY YANKEE ROMPE RÉCORD COMO EL VIDEO EN ESPAÑOL MÁS VISTO A NIVEL GLOBAL EN LA SEMANA DE SU LANZAMIENTO",
+        "subtitulo": "Subtitulo", 
+        "img1": "assets/img/noticias/notici_2.jpg", 
+        "text1": "(Quito, 09 de mayo de 2016)  CHINO Y NACHO, el dúo exponente de la música latina ya tiene en sus manos el hit del año. Y es que su más reciente tema promocional junto a Daddy Yankee, 'Andas en Mi Cabeza' se ha convertido en un fenómeno total que expone una popularidad arrolladora en la web. El dúo celebra el importante hito de que su video musical ha sobrepasado el récord en la plataforma de VEVO como el video en Español más visto a nivel global en la semana de su lanzamiento, superando más de 35 millones de visitas en sus primeros 15 días; más de 13.6 millones en los primeros 7 días.",
+        "video": "https://www.youtube.com/embed/1oP74GzJqXo",
+        "dia":"Jueves",
+        "mes":"Mayo",
+        "año":"2016",
+        "dianum":"10"
+
+    },
+    "1": {
+        "title": "Jonathan Moly estrena videoclip de Sayonara",
+        "subtitulo": "El popular cantautor venezolano presenta su más reciente audiovisual grabado entre Cuba y República Dominicana. Al ritmo de la salsa, comparte un pegajoso dúo junto a Jerry Rivera", 
+        "img1": "assets/img/noticias/notici_3.jpg", 
+        "text1": "  El tema, en el que comparte dúo con el astro boricua Jerry Rivera, es una pegajosa salsa escrita y producida entre Juan Miguel y Jonathan Moly con mezcla a cargo de Juan Mario Aracil, quien ha trabajado para Marc Anthony, Jennifer López y Carlos Vives, entre otros.",
+        "video": "https://www.youtube.com/embed/1oP74GzJqXo",
+        "dia":"Jueves",
+        "mes":"Mayo",
+        "año":"2016",
+        "dianum":"10"
+
+    }
+}

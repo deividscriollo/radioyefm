@@ -1,5 +1,13 @@
-    // create the module and name it scotchApp
-    var app = angular.module('dcApp', ['ngRoute', 'ngAnimate', 'ngStorage', 'route-segment', 'view-segment', 'ui.bootstrap', 'youtube-embed']);
+ // create the module and name it scotchApp
+    var app = angular.module('dcApp', 
+                ['ngRoute',
+                 'ngAnimate', 
+                 'ngStorage', 
+                 'route-segment', 
+                 'view-segment', 
+                 'ui.bootstrap', 
+                 'youtube-embed', 
+                 'lazy-scroll']);
 
     app.factory('service', function($http){
         var service = {
@@ -13,18 +21,25 @@
                 });
                 return promise;
             },
-            general:function(typeservices){
+            general: function(typeservices){
                     var promise = $http.post("app.php", {methods: typeservices}).then(function (response) {
                     return response.data;
                 });
                 return promise;
             },
-            general:function(typeservices, url, data){
+            general: function(typeservices, url, data){
                     var promise = $http.post(url, {methods: typeservices, data}).then(function (response) {
                     return response.data;
                 });
                 return promise;
+            },
+            getfilejson: function(){
+                    var promise = $http.get('data/data.json').then(function (response) {
+                    return response.data;
+                });
+                return promise;
             }
+
         };
         return service;
     });
@@ -85,7 +100,7 @@
             .segment('noticias', {
                 // 'default': true,
                 templateUrl: 'data/imbabura/noticias.html',
-                // controller: 'imbapodcastController'
+                controller: 'imba-noticias-Controller'
             })
             .segment('contactos', {
                 // 'default': true,
@@ -161,5 +176,3 @@
         // $scope.sucursal=datainfo.sucursal[0];
         // console.log($scope.sucursal);
     });
-
-

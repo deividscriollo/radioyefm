@@ -25,6 +25,8 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/ionicons.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/popup.css" rel="stylesheet" type="text/css">
+    <link href="css/tarifas.css" rel="stylesheet" type="text/css">
+
 
     <!--[if IE 7]><link type="text/css" rel="stylesheet" href="assets/css/font-awesome-ie7.min.css"><![endif]-->
 
@@ -84,6 +86,7 @@
     <script src="assets/angular-1.5.0/angular-route-segment.min.js"></script>
     <script src="assets/angular-1.5.0/ui-bootstrap-tpls.min.js"></script>
     <script src="assets/js/angular-1.5.0/angular-youtube-embed.js"></script>
+    <script src='assets/js/angular-1.5.0/lazy-scroll.min.js'></script>
     
     
 

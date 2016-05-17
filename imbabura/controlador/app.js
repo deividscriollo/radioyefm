@@ -53,7 +53,7 @@
         $rootScope.animation = currRoute.animation;
       });
 
-      });
+    });
     // scotchApp.controller('mainController', function($scope) {
     //     $scope.pageClass = 'page-about';
     // });

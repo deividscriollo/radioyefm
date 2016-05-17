@@ -4,22 +4,18 @@ angular.module('dcApp').controller('imbaburaCtrl', function ($scope, service, $t
 	$scope.theBestVideo = 'AGsmwhFr7f0';
 
 
-	$('#myModal').on('hidden.bs.modal', function () {
+	// $('#myModal').on('hidden.bs.modal', function () {
 		// $('#element_video').get(0).stopVideo();
-		$('#unique-youtube-embed-id-1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
-		audio.play();
-    });
-		   
-
-	// var subtit = $('#TL_URL_cntnr');
-	// console.log(subtit);
-
+		// $('#unique-youtube-embed-id-1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+		// audio.play();
+    // });
+    
 	// ----------------------------------- configuración acceso facturanext ------------------------------------ /
 	// slider inicializado	
-	$('#myModal').modal('show');
+	// $('#myModal').modal('show');
 
 	var audio = new Audio('http://173.244.209.219:8025/stream.aac');
-	// audio.play();
+	audio.play();
 
 	function AdminController($scope) {    
 		$scope.setMaster = function(obj, $event){
@@ -183,37 +179,43 @@ angular.module('dcApp').controller('imbahomeCtrl', function ($scope, service) {
 					jQuery('.tp-simpleresponsive').removeClass("mouseisover");
 			})
 		});	
-		/* Client Carousel Widget.  
-		   Used: index.html, index-portfolio.html, index-revolution.html, about.html */
-		$(".vc_client .vc_carousel").carouFredSel({
-			responsive: true,
-			prev:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.met_carousel_control').children('a:first-child')
-				}
+
+	service.getfilejson().then(function(d) {
+	    $scope.noticias = d;
+	});
+	// $scope.orderProp = 'title';
+	// $scope.quantity = 2;
+	/* Client Carousel Widget.  
+	   Used: index.html, index-portfolio.html, index-revolution.html, about.html */
+	$(".vc_client .vc_carousel").carouFredSel({
+		responsive: true,
+		prev:{
+			button : function(){
+				return $(this).parent().parent().parent().children('.met_carousel_control').children('a:first-child')
+			}
+		},
+		next:{
+			button : function(){
+				return $(this).parent().parent().parent().children('.met_carousel_control').children('a:last-child')
+			}
+		},
+		width: 'auto',
+		circular: false,
+		infinite: true,
+		auto:{
+			play : true,
+			pauseDuration: 0,
+			duration: 1000
+		},
+		items:{
+			visible:{
+				min: 1,
+				max: 6
 			},
-			next:{
-				button : function(){
-					return $(this).parent().parent().parent().children('.met_carousel_control').children('a:last-child')
-				}
-			},
-			width: 'auto',
-			circular: false,
-			infinite: true,
-			auto:{
-				play : true,
-				pauseDuration: 0,
-				duration: 1000
-			},
-			items:{
-				visible:{
-					min: 1,
-					max: 6
-				},
-				height: 152
-			},
-			pagination  : ".vc_client .vc_pager"
-		});
+			height: 152
+		},
+		pagination  : ".vc_client .vc_pager"
+	});
 	
 
 	$("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false,social_tools: false});
@@ -494,27 +496,30 @@ angular.module('dcApp').controller('imbatarifarioController', function ($scope, 
 
 	// inisidencias
 	$('.element_plant').addClass('hidden');
-	$('#back-top').trigger("click");
 });
 
 angular.module('dcApp').controller('imbadespController', function ($scope, $routeSegment) {
 	$('.element_plant').addClass('hidden');
-	$('#back-top').trigger("click");
 });
 angular.module('dcApp').controller('imba-sartens-Controller', function ($scope, $routeSegment) {
 	$('.element_plant').addClass('hidden');
-	$('#back-top').trigger("click");
 });
 angular.module('dcApp').controller('imba-inbox-Controller', function ($scope, $routeSegment) {
 	$('.element_plant').addClass('hidden');
-	$('#back-top').trigger("click");
 });
 angular.module('dcApp').controller('imba-hp-Controller', function ($scope, $routeSegment) {
 	$('.element_plant').addClass('hidden');
-	$('#back-top').trigger("click");
 });
 angular.module('dcApp').controller('imba-codigodeontologico-Controller', function ($scope, $routeSegment) {
 	$('.element_plant').addClass('hidden');
-	$('#back-top').trigger("click");
+});
+
+angular.module('dcApp').controller('imba-noticias-Controller', function ($scope, service) {
+
+	service.getfilejson().then(function(d) {
+	    $scope.noticias = d;
+	});
+	$("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false,social_tools: false});
+
 });
 

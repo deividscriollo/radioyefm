@@ -38,7 +38,7 @@
 		        <div class="vc_services vc_border-orange noticias">
 		            <div class="icon"> <i class="fa fa-rocket vc_orange"></i> </div>
 		            <h3 class="bg-linck-deo">Noticias</h3>
-		            <!-- <a class="vc_btn vc_bg-orange" href="#/Imbabura/Noticias">Entrar</a> -->
+		            <a class="vc_btn vc_bg-orange" href="#/Imbabura/Noticias">Entrar</a>
 		        </div>
 		    </div>
 		</div>
@@ -72,6 +72,50 @@
 	</div>
 	<div class="col-sm-9">
 		<!-- lo mas sonado de la seman -->
+		<div class="row">
+			<div class="col-sm-12">
+				<a href="#/Imbabura/Noticias">
+					<br><br>
+						<div class="vc_blog-list" ng-repeat="noticia in noticias ">
+						  <div class="header">
+						        <div class="entry-date">
+						            <div class="day">05</div>
+						            <div class="month">Mayo</div>
+						        </div>
+						        <div class="title">
+						            <h3> {{noticia.title}} </h3>
+						            <span class="year info"><i class="glyphicon glyphicon-calendar"></i> 2016</span>
+						            <span class="user info"> <i class="fa fa-user"> </i> <a href="#"> Admin</a> </span>
+						            <span class="comments info"> <i class="fa fa-comments"> </i></span>
+						    </div>
+						    <div class="clearfix"></div>
+						    <article class="blog-row clearfix">
+						        <div class="blog-left">
+						            <div class="vc_anim vc_anim-slide">
+						                 <img alt="example image" src="{{noticia.img1}}"  class="pull-center" /> 
+						                <div class="vc_hover">
+						                    <div class="hover-wrapper">
+						                        <div class="icon-wrapper">
+						                            
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="blog-right clearfix">
+						            <div class="description">
+						                <p> 
+						                {{noticia.text1}}             
+						                </p>
+						            </div>
+						        </div>        
+						    </article>
+						    <div class="vc_separator"> </div>
+						  </div>
+						</div>
+				</a>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-sm-12">
 				<h5 class="vc_widget-title text-center">
@@ -161,11 +205,11 @@
 			    </div>
 			</div>
 		</div>
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm-12">
 				<img src="assets/img/evento.png">
 			</div>
-		</div>
+		</div> -->
 
 		<!-- programas -->
 		<div class="row">
