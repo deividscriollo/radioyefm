@@ -1,7 +1,7 @@
 angular.module('dcApp').controller('imbaburaCtrl', function ($scope, service, $timeout) {
 	// 2. This code loads the IFrame Player API code asynchronously.
       
-	$scope.theBestVideo = 'AGsmwhFr7f0';
+	
 
 
 	// $('#myModal').on('hidden.bs.modal', function () {
@@ -12,7 +12,7 @@ angular.module('dcApp').controller('imbaburaCtrl', function ($scope, service, $t
     
 	// ----------------------------------- configuración acceso facturanext ------------------------------------ /
 	// slider inicializado	
-	// $('#myModal').modal('show');
+	$('#myModal').modal('show');
 
 	var audio = new Audio('http://173.244.209.219:8025/stream.aac');
 	audio.play();

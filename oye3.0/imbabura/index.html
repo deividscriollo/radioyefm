@@ -1,0 +1,131 @@
+<!-- scrollToTop -->
+<!-- ================ -->
+<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+
+<!-- page wrapper start -->
+<!-- ================ -->
+<div class="page-wrapper">
+
+    <!-- header-container start -->
+    <div class="header-container">
+        
+        <!-- header start -->
+        <!-- classes:  -->
+        <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+        <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+        <!-- "full-width": mandatory class for the full-width menu layout -->
+        <!-- "centered": mandatory class for the centered logo layout -->
+        <!-- ================ -->
+        <header class="header  fixed  full-width  clearfix" id="header">
+            <!-- header-right start -->
+            <!-- ================ -->
+            <div class="header-right clearfix"></div>
+                
+            <!-- main-navigation start -->
+            <!-- classes: -->
+            <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+            <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+            <!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
+            <!-- ================ -->
+            <div class="main-navigation  animated with-dropdown-buttons">
+
+                <!-- navbar start -->
+                <!-- ================ -->
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+
+                        <!-- Toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            
+                            <!-- header-left start -->
+                            <!-- ================ -->
+                            <div class="header-left clearfix ">
+
+                                <!-- logo -->
+                                <div id="logo-mobile" class="logo">
+                                    <a href="#/Imbabura">
+                                        <img id="logo_img" src="assets/images/logo_light_blue.png" alt="The Project">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- header-left end -->
+                            
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                            <!-- main-menu -->
+                            <ul class="nav navbar-nav navbar-right">
+                                <!-- mega-menu start -->
+                                <li ng-class="{active: ('imba.home' | routeSegmentStartsWith)}">
+                                <a href="#/Imbabura"><i class="fa fa-home"></i> Home </a>
+                                </li>
+                                <li ng-class="{active: ('imba.corporativo' | routeSegmentStartsWith)}">
+                                    <a href="#/Imbabura/Corporativo"><i class="icon-database"></i> Corporativo </a>
+                                </li>
+                                <li ng-class="{active: ('imba.gallery' | routeSegmentStartsWith)}">
+                                    <a href="#/Imbabura/Galeria"><i class="icon-database"></i> Galería</a>
+                                </li>
+                                <li class="{active: ('imba.promociones' | routeSegmentStartsWith)">
+                                    <a href="#/Imbabura/Promociones"><i class="icon-credit-card"></i> Promociones</a>
+                                </li>
+                                <li class="{active: ('imba.programacion' | routeSegmentStartsWith)">
+                                    <a href="#/Imbabura/Programacion"><i class="icon-th"></i> Programación</a>
+                                </li>
+                                <li class="{active: ('imba.podcast' | routeSegmentStartsWith)">
+                                    <a href="#/Imbabura/Podcast"><i class="icon-note-beamed"></i> Podcast</a>
+                                </li>
+                                <li class="{active: ('imba.contactos' | routeSegmentStartsWith)">
+                                    <a href="#/Imbabura/Contactos"><i class="icon-contacts"></i> Contactos</a>
+                                </li>
+                                <!-- mega-menu end -->
+                            </ul>
+                            <!-- main-menu end -->
+                            
+                            <!-- header dropdown buttons -->
+                            <div class="header-dropdown-buttons hidden-xs hidden-sm">
+                                <div class="btn-group" ng-click="clickplay1()" id="btn_pause">
+                                    <button type="button" class="btn dropdown-toggle">
+                                        <i class="icon-pause"></i>
+                                    </button>
+                                </div>
+                                <div class="btn-group hidden" ng-click="clickpause1()" id="btn_play">
+                                    <button type="button" class="btn dropdown-toggle">
+                                        <i class="icon-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- header dropdown buttons end-->
+                        </div>
+
+                    </div>
+                </nav>
+                <!-- navbar end -->
+            </div>
+            <!-- main-navigation end -->
+            </div>
+            <!-- header-right end -->
+        </header>
+        <!-- header end -->            
+    </div>
+    <!-- header-container end -->
+    <div app-view-segment="1"></div>
+
+    <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
+    <!-- ================ -->
+    <!-- <footer id="footer" class="clearfix page"> -->
+        
+    <!-- </footer> -->
+    <!-- footer end -->
+</div>
+
+<!-- Colored FAB button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
