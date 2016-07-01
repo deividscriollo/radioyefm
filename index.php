@@ -1,3 +1,10 @@
+<?php 
+  require_once 'imbabura/method/mobile_detector.php';
+  $detect = new Mobile_Detect;
+  if ( $detect->isMobile() ) {
+    header("Location: http://www.m.oyefm.com");
+  }
+?>
 <!DOCTYPE html>
 <html lang="es" ng-app="dcApp">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -105,6 +112,7 @@
     <!-- Javascript =============================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/dispositivedetector.js"></script>
     <!-- Head SCRIPTS -->
     <script type="text/javascript" src="assets/js/modernizr.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -142,6 +150,10 @@
         }
     </style>
     <script>
+    // var dispositivo = navigator.userAgent.toLowerCase();
+    // if( dispositivo.search(/iphone|ipod|ipad|android/) > -1 ){
+    //     document.location = 'http://www.m.oyefm.com/';  
+    // }
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -149,7 +161,6 @@
 
   ga('create', 'UA-73179905-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </body>
 </html>

@@ -30,5 +30,12 @@ angular.module('scotchApp').controller('mainController', function ($scope) {
       js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+
+    console.log('test');
+    var dispositivo = navigator.userAgent.toLowerCase();
+        if( dispositivo.search(/iphone|ipod|ipad|android/) > -1 ){
+            // document.location = ‘http://www.pepfarinweb.com/mobile’;  
+            console.log('mobile');
+        }
   // para el Instagram
 });
